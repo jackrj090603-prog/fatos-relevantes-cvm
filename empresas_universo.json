@@ -1,0 +1,4790 @@
+{
+  "RRRP3": {
+    "ticker": "RRRP3",
+    "nome": "3r Petroleum",
+    "setor": "Petróleo e Gas",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "TTEN3": {
+    "ticker": "TTEN3",
+    "nome": "3tentos",
+    "setor": "Agro e Pesca",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "QVQP3B": {
+    "ticker": "QVQP3B",
+    "nome": "524 Particip",
+    "setor": "Energia Elétrica",
+    "cvm_code": "16284",
+    "cnpj": "01.851.771/0001-55"
+  },
+  "ABCB4": {
+    "ticker": "ABCB4",
+    "nome": "Abc Brasil",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "20958",
+    "cnpj": "28.195.667/0001-06"
+  },
+  "EALT3": {
+    "ticker": "EALT3",
+    "nome": "Aco Altona",
+    "setor": "Siderur & Metalur",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "EALT4": {
+    "ticker": "EALT4",
+    "nome": "Aco Altona",
+    "setor": "Siderur & Metalur",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "AERI3": {
+    "ticker": "AERI3",
+    "nome": "Aeris",
+    "setor": "Máquinas Indust",
+    "cvm_code": "25283",
+    "cnpj": "12.528.708/0001-07"
+  },
+  "AESB3": {
+    "ticker": "AESB3",
+    "nome": "AES Brasil",
+    "setor": "Energia Elétrica",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "AFLT3": {
+    "ticker": "AFLT3",
+    "nome": "Afluente T",
+    "setor": "Energia Elétrica",
+    "cvm_code": "22179",
+    "cnpj": "10.338.320/0001-00"
+  },
+  "GRAO3": {
+    "ticker": "GRAO3",
+    "nome": "Agribrasil",
+    "setor": "Agro e Pesca",
+    "cvm_code": "25933",
+    "cnpj": "18.483.666/0001-03"
+  },
+  "AGXY3": {
+    "ticker": "AGXY3",
+    "nome": "Agrogalaxy",
+    "setor": "Agro e Pesca",
+    "cvm_code": "25658",
+    "cnpj": "21.240.146/0001-84"
+  },
+  "BRGE3": {
+    "ticker": "BRGE3",
+    "nome": "Alfa Consorc",
+    "setor": "Outros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "BRGE5": {
+    "ticker": "BRGE5",
+    "nome": "Alfa Consorc",
+    "setor": "Outros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "BRGE6": {
+    "ticker": "BRGE6",
+    "nome": "Alfa Consorc",
+    "setor": "Outros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "BRGE7": {
+    "ticker": "BRGE7",
+    "nome": "Alfa Consorc",
+    "setor": "Outros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "BRGE8": {
+    "ticker": "BRGE8",
+    "nome": "Alfa Consorc",
+    "setor": "Outros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "BRGE11": {
+    "ticker": "BRGE11",
+    "nome": "Alfa Consorc",
+    "setor": "Outros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "BRGE12": {
+    "ticker": "BRGE12",
+    "nome": "Alfa Consorc",
+    "setor": "Outros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "CRIV3": {
+    "ticker": "CRIV3",
+    "nome": "Alfa Financ",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "CRIV4": {
+    "ticker": "CRIV4",
+    "nome": "Alfa Financ",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "RPAD3": {
+    "ticker": "RPAD3",
+    "nome": "Alfa Holding",
+    "setor": "Outros",
+    "cvm_code": "9954",
+    "cnpj": "17.167.396/0001-69"
+  },
+  "RPAD5": {
+    "ticker": "RPAD5",
+    "nome": "Alfa Holding",
+    "setor": "Outros",
+    "cvm_code": "9954",
+    "cnpj": "17.167.396/0001-69"
+  },
+  "RPAD6": {
+    "ticker": "RPAD6",
+    "nome": "Alfa Holding",
+    "setor": "Outros",
+    "cvm_code": "9954",
+    "cnpj": "17.167.396/0001-69"
+  },
+  "BRIV3": {
+    "ticker": "BRIV3",
+    "nome": "Alfa Invest",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "BRIV4": {
+    "ticker": "BRIV4",
+    "nome": "Alfa Invest",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "ALSO3": {
+    "ticker": "ALSO3",
+    "nome": "Alianscsonae",
+    "setor": "Outros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "APTI3": {
+    "ticker": "APTI3",
+    "nome": "Aliperti",
+    "setor": "Siderur & Metalur",
+    "cvm_code": "12823",
+    "cnpj": "61.156.931/0001-78"
+  },
+  "APTI4": {
+    "ticker": "APTI4",
+    "nome": "Aliperti",
+    "setor": "Siderur & Metalur",
+    "cvm_code": "12823",
+    "cnpj": "61.156.931/0001-78"
+  },
+  "FRRN3B": {
+    "ticker": "FRRN3B",
+    "nome": "All Norte",
+    "setor": "Transporte Serviç",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "FRRN5B": {
+    "ticker": "FRRN5B",
+    "nome": "All Norte",
+    "setor": "Transporte Serviç",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "FRRN6B": {
+    "ticker": "FRRN6B",
+    "nome": "All Norte",
+    "setor": "Transporte Serviç",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "AALR3": {
+    "ticker": "AALR3",
+    "nome": "Alliar",
+    "setor": "Outros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "ALLD3": {
+    "ticker": "ALLD3",
+    "nome": "Allied",
+    "setor": "Comércio",
+    "cvm_code": "25330",
+    "cnpj": "20.247.322/0001-47"
+  },
+  "ALPA3": {
+    "ticker": "ALPA3",
+    "nome": "Alpargatas",
+    "setor": "Textil",
+    "cvm_code": "10456",
+    "cnpj": "61.079.117/0001-05"
+  },
+  "ALPA4": {
+    "ticker": "ALPA4",
+    "nome": "Alpargatas",
+    "setor": "Textil",
+    "cvm_code": "10456",
+    "cnpj": "61.079.117/0001-05"
+  },
+  "APER3": {
+    "ticker": "APER3",
+    "nome": "Alper S.A.",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "AVLL3": {
+    "ticker": "AVLL3",
+    "nome": "Alphaville",
+    "setor": "Construção",
+    "cvm_code": "25275",
+    "cnpj": "16.811.931/0001-00"
+  },
+  "ALUP3": {
+    "ticker": "ALUP3",
+    "nome": "Alupar",
+    "setor": "Energia Elétrica",
+    "cvm_code": "21490",
+    "cnpj": "08.364.948/0001-38"
+  },
+  "ALUP4": {
+    "ticker": "ALUP4",
+    "nome": "Alupar",
+    "setor": "Energia Elétrica",
+    "cvm_code": "21490",
+    "cnpj": "08.364.948/0001-38"
+  },
+  "ALUP11": {
+    "ticker": "ALUP11",
+    "nome": "Alupar",
+    "setor": "Energia Elétrica",
+    "cvm_code": "21490",
+    "cnpj": "08.364.948/0001-38"
+  },
+  "BAZA3": {
+    "ticker": "BAZA3",
+    "nome": "Amazonia",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "17280",
+    "cnpj": "02.340.278/0001-33"
+  },
+  "ABEV3": {
+    "ticker": "ABEV3",
+    "nome": "AMBEV S.A.",
+    "setor": "Alimentos e Beb",
+    "cvm_code": "02326-4",
+    "cnpj": "07.526.557/0001-00"
+  },
+  "AMBP3": {
+    "ticker": "AMBP3",
+    "nome": "Ambipar",
+    "setor": "Outros",
+    "cvm_code": "24961",
+    "cnpj": "12.648.266/0001-24"
+  },
+  "AMER3": {
+    "ticker": "AMER3",
+    "nome": "Americanas",
+    "setor": "Comércio",
+    "cvm_code": "20990",
+    "cnpj": "00.776.574/0001-56"
+  },
+  "CBEE3": {
+    "ticker": "CBEE3",
+    "nome": "Ampla Energ",
+    "setor": "Energia Elétrica",
+    "cvm_code": "3050",
+    "cnpj": "33.050.071/0001-58"
+  },
+  "ANIM3": {
+    "ticker": "ANIM3",
+    "nome": "Anima",
+    "setor": "Outros",
+    "cvm_code": "23248",
+    "cnpj": "09.288.252/0001-32"
+  },
+  "ARZZ3": {
+    "ticker": "ARZZ3",
+    "nome": "Arezzo Co",
+    "setor": "Textil",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "ARML3": {
+    "ticker": "ARML3",
+    "nome": "Armac",
+    "setor": "Outros",
+    "cvm_code": "27030",
+    "cnpj": "48.344.725/0007-19"
+  },
+  "ASAI3": {
+    "ticker": "ASAI3",
+    "nome": "Assai",
+    "setor": "Comércio",
+    "cvm_code": "1538",
+    "cnpj": "48.539.407/0001-18"
+  },
+  "ATMP3": {
+    "ticker": "ATMP3",
+    "nome": "Atmasa",
+    "setor": "Outros",
+    "cvm_code": "604",
+    "cnpj": "61.510.996/0001-70"
+  },
+  "ATOM3": {
+    "ticker": "ATOM3",
+    "nome": "Atompar",
+    "setor": "Telecomunicações",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "AURA33": {
+    "ticker": "AURA33",
+    "nome": "Aura 360",
+    "setor": "Mineração",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "AZEV3": {
+    "ticker": "AZEV3",
+    "nome": "Azevedo",
+    "setor": "Construção",
+    "cvm_code": "27626",
+    "cnpj": "52.017.473/0001-03"
+  },
+  "AZEV4": {
+    "ticker": "AZEV4",
+    "nome": "Azevedo",
+    "setor": "Construção",
+    "cvm_code": "27626",
+    "cnpj": "52.017.473/0001-03"
+  },
+  "AZUL4": {
+    "ticker": "AZUL4",
+    "nome": "Azul",
+    "setor": "Transporte Serviç",
+    "cvm_code": "24112",
+    "cnpj": "09.305.994/0001-29"
+  },
+  "BLUT3": {
+    "ticker": "BLUT3",
+    "nome": "B Tech Eqi",
+    "setor": "Alimentos e Beb",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "BLUT4": {
+    "ticker": "BLUT4",
+    "nome": "B Tech Eqi",
+    "setor": "Alimentos e Beb",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "B3SA3": {
+    "ticker": "B3SA3",
+    "nome": "B3",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "21610",
+    "cnpj": "09.346.601/0001-25"
+  },
+  "BAHI3": {
+    "ticker": "BAHI3",
+    "nome": "Bahema",
+    "setor": "Outros",
+    "cvm_code": "698",
+    "cnpj": "13.605.696/0001-21"
+  },
+  "BMGB4": {
+    "ticker": "BMGB4",
+    "nome": "Banco BMG",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "24600",
+    "cnpj": "61.186.680/0001-74"
+  },
+  "BIDI3": {
+    "ticker": "BIDI3",
+    "nome": "Banco Inter",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "24406",
+    "cnpj": "00.416.968/0001-01"
+  },
+  "BIDI4": {
+    "ticker": "BIDI4",
+    "nome": "Banco Inter",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "24406",
+    "cnpj": "00.416.968/0001-01"
+  },
+  "BIDI11": {
+    "ticker": "BIDI11",
+    "nome": "Banco Inter",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "24406",
+    "cnpj": "00.416.968/0001-01"
+  },
+  "BPAN4": {
+    "ticker": "BPAN4",
+    "nome": "Banco Pan",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "21199",
+    "cnpj": "59.285.411/0001-13"
+  },
+  "BGIP3": {
+    "ticker": "BGIP3",
+    "nome": "Banese",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "BGIP4": {
+    "ticker": "BGIP4",
+    "nome": "Banese",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "BEES3": {
+    "ticker": "BEES3",
+    "nome": "Banestes",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "15245",
+    "cnpj": "39.813.605/0001-37"
+  },
+  "BEES4": {
+    "ticker": "BEES4",
+    "nome": "Banestes",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "15245",
+    "cnpj": "39.813.605/0001-37"
+  },
+  "BPAR3": {
+    "ticker": "BPAR3",
+    "nome": "Banpara",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "BRSR3": {
+    "ticker": "BRSR3",
+    "nome": "Banrisul",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "15822",
+    "cnpj": "92.721.232/0001-57"
+  },
+  "BRSR5": {
+    "ticker": "BRSR5",
+    "nome": "Banrisul",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "15822",
+    "cnpj": "92.721.232/0001-57"
+  },
+  "BRSR6": {
+    "ticker": "BRSR6",
+    "nome": "Banrisul",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "15822",
+    "cnpj": "92.721.232/0001-57"
+  },
+  "BDLL3": {
+    "ticker": "BDLL3",
+    "nome": "Bardella",
+    "setor": "Máquinas Indust",
+    "cvm_code": "1520",
+    "cnpj": "60.851.615/0001-53"
+  },
+  "BDLL4": {
+    "ticker": "BDLL4",
+    "nome": "Bardella",
+    "setor": "Máquinas Indust",
+    "cvm_code": "1520",
+    "cnpj": "60.851.615/0001-53"
+  },
+  "BALM3": {
+    "ticker": "BALM3",
+    "nome": "Baumer",
+    "setor": "Outros",
+    "cvm_code": "1562",
+    "cnpj": "61.374.161/0001-30"
+  },
+  "BALM4": {
+    "ticker": "BALM4",
+    "nome": "Baumer",
+    "setor": "Outros",
+    "cvm_code": "1562",
+    "cnpj": "61.374.161/0001-30"
+  },
+  "BBML3": {
+    "ticker": "BBML3",
+    "nome": "Bbmlogistica",
+    "setor": "Transporte Serviç",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "BBSE3": {
+    "ticker": "BBSE3",
+    "nome": "BB SEGURIDADE PARTICIPAÇÕES S.A.",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "02315-9",
+    "cnpj": "17.344.597/0001-94"
+  },
+  "BMOB3": {
+    "ticker": "BMOB3",
+    "nome": "Bemobi Tech",
+    "setor": "Software e Dados",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "BETP3B": {
+    "ticker": "BETP3B",
+    "nome": "Betapart",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "17884",
+    "cnpj": "02.762.124/0001-30"
+  },
+  "BMKS3": {
+    "ticker": "BMKS3",
+    "nome": "Bic Monark",
+    "setor": "Veiculos e peças",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "BIOM3": {
+    "ticker": "BIOM3",
+    "nome": "Biomm",
+    "setor": "Outros",
+    "cvm_code": "19305",
+    "cnpj": "04.752.991/0001-10"
+  },
+  "BKBR3": {
+    "ticker": "BKBR3",
+    "nome": "Bk Brasil",
+    "setor": "Outros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "BLAU3": {
+    "ticker": "BLAU3",
+    "nome": "Blau",
+    "setor": "Química",
+    "cvm_code": "24627",
+    "cnpj": "58.430.828/0001-60"
+  },
+  "SOJA3": {
+    "ticker": "SOJA3",
+    "nome": "Boa Safra",
+    "setor": "Agro e Pesca",
+    "cvm_code": "25704",
+    "cnpj": "10.807.374/0001-77"
+  },
+  "BOAS3": {
+    "ticker": "BOAS3",
+    "nome": "Boa Vista",
+    "setor": "Software e Dados",
+    "cvm_code": "850",
+    "cnpj": "33.485.541/0001-06"
+  },
+  "BOBR3": {
+    "ticker": "BOBR3",
+    "nome": "Bombril",
+    "setor": "Química",
+    "cvm_code": "15334",
+    "cnpj": "00.257.846/0001-01"
+  },
+  "BOBR4": {
+    "ticker": "BOBR4",
+    "nome": "Bombril",
+    "setor": "Química",
+    "cvm_code": "15334",
+    "cnpj": "00.257.846/0001-01"
+  },
+  "BBRK3": {
+    "ticker": "BBRK3",
+    "nome": "BR Brokers",
+    "setor": "Outros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "BRML3": {
+    "ticker": "BRML3",
+    "nome": "BR Malls Par",
+    "setor": "Outros",
+    "cvm_code": "19909",
+    "cnpj": "06.977.745/0001-91"
+  },
+  "BRBI11": {
+    "ticker": "BRBI11",
+    "nome": "BR Partners",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "25860",
+    "cnpj": "10.739.356/0001-03"
+  },
+  "BRPR3": {
+    "ticker": "BRPR3",
+    "nome": "BR Propert",
+    "setor": "Outros",
+    "cvm_code": "19925",
+    "cnpj": "06.977.751/0001-49"
+  },
+  "BBDC3": {
+    "ticker": "BBDC3",
+    "nome": "BANCO BRADESCO S.A.",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "00906-7",
+    "cnpj": "60.746.948/0001-12"
+  },
+  "BBDC4": {
+    "ticker": "BBDC4",
+    "nome": "BANCO BRADESCO S.A.",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "00906-7",
+    "cnpj": "60.746.948/0001-12"
+  },
+  "BRAP3": {
+    "ticker": "BRAP3",
+    "nome": "Bradespar",
+    "setor": "Outros",
+    "cvm_code": "18724",
+    "cnpj": "03.847.461/0001-92"
+  },
+  "BRAP4": {
+    "ticker": "BRAP4",
+    "nome": "Bradespar",
+    "setor": "Outros",
+    "cvm_code": "18724",
+    "cnpj": "03.847.461/0001-92"
+  },
+  "BBAS3": {
+    "ticker": "BBAS3",
+    "nome": "BANCO DO BRASIL S.A.",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "01023-5",
+    "cnpj": "00.000.000/0001-91"
+  },
+  "AGRO3": {
+    "ticker": "AGRO3",
+    "nome": "Brasilagro",
+    "setor": "Agro e Pesca",
+    "cvm_code": "20036",
+    "cnpj": "07.628.528/0001-59"
+  },
+  "BRKM3": {
+    "ticker": "BRKM3",
+    "nome": "Braskem",
+    "setor": "Química",
+    "cvm_code": "4820",
+    "cnpj": "42.150.391/0001-70"
+  },
+  "BRKM5": {
+    "ticker": "BRKM5",
+    "nome": "Braskem",
+    "setor": "Química",
+    "cvm_code": "4820",
+    "cnpj": "42.150.391/0001-70"
+  },
+  "BRKM6": {
+    "ticker": "BRKM6",
+    "nome": "Braskem",
+    "setor": "Química",
+    "cvm_code": "4820",
+    "cnpj": "42.150.391/0001-70"
+  },
+  "BSLI3": {
+    "ticker": "BSLI3",
+    "nome": "BRB Banco",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "14206",
+    "cnpj": "00.000.208/0001-00"
+  },
+  "BSLI4": {
+    "ticker": "BSLI4",
+    "nome": "BRB Banco",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "14206",
+    "cnpj": "00.000.208/0001-00"
+  },
+  "BRFS3": {
+    "ticker": "BRFS3",
+    "nome": "BRF SA",
+    "setor": "Alimentos e Beb",
+    "cvm_code": "16292",
+    "cnpj": "01.838.723/0001-27"
+  },
+  "BRIT3": {
+    "ticker": "BRIT3",
+    "nome": "Brisanet",
+    "setor": "Outros",
+    "cvm_code": "26085",
+    "cnpj": "19.796.586/0001-70"
+  },
+  "BRQB3": {
+    "ticker": "BRQB3",
+    "nome": "Brq",
+    "setor": "Software e Dados",
+    "cvm_code": "23817",
+    "cnpj": "36.542.025/0001-64"
+  },
+  "BPAC3": {
+    "ticker": "BPAC3",
+    "nome": "Btgp Banco",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "BPAC5": {
+    "ticker": "BPAC5",
+    "nome": "Btgp Banco",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "BPAC11": {
+    "ticker": "BPAC11",
+    "nome": "Btgp Banco",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "CABI3B": {
+    "ticker": "CABI3B",
+    "nome": "Cabinda Part",
+    "setor": "Outros",
+    "cvm_code": "19119",
+    "cnpj": "04.030.182/0001-02"
+  },
+  "CACO3B": {
+    "ticker": "CACO3B",
+    "nome": "Caconde Part",
+    "setor": "Outros",
+    "cvm_code": "19135",
+    "cnpj": "04.031.213/0001-31"
+  },
+  "CXSE3": {
+    "ticker": "CXSE3",
+    "nome": "Caixa Seguri",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "23795",
+    "cnpj": "22.543.331/0001-00"
+  },
+  "CAMB3": {
+    "ticker": "CAMB3",
+    "nome": "Cambuci",
+    "setor": "Textil",
+    "cvm_code": "2100",
+    "cnpj": "61.088.894/0001-08"
+  },
+  "CAML3": {
+    "ticker": "CAML3",
+    "nome": "Camil",
+    "setor": "Alimentos e Beb",
+    "cvm_code": "24228",
+    "cnpj": "64.904.295/0001-03"
+  },
+  "CRFB3": {
+    "ticker": "CRFB3",
+    "nome": "Carrefour BR",
+    "setor": "Comércio",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "CASN3": {
+    "ticker": "CASN3",
+    "nome": "Casan",
+    "setor": "Outros",
+    "cvm_code": "2518",
+    "cnpj": "13.034.863/0001-21"
+  },
+  "CASN4": {
+    "ticker": "CASN4",
+    "nome": "Casan",
+    "setor": "Outros",
+    "cvm_code": "2518",
+    "cnpj": "13.034.863/0001-21"
+  },
+  "CBAV3": {
+    "ticker": "CBAV3",
+    "nome": "Cba",
+    "setor": "Mineração",
+    "cvm_code": "8796",
+    "cnpj": "25.635.129/0001-05"
+  },
+  "CCRO3": {
+    "ticker": "CCRO3",
+    "nome": "CCR SA",
+    "setor": "Transporte Serviç",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "CEAB3": {
+    "ticker": "CEAB3",
+    "nome": "Cea Modas",
+    "setor": "Comércio",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "CEBR3": {
+    "ticker": "CEBR3",
+    "nome": "Ceb",
+    "setor": "Energia Elétrica",
+    "cvm_code": "16098",
+    "cnpj": "01.554.970/0001-00"
+  },
+  "CEBR5": {
+    "ticker": "CEBR5",
+    "nome": "Ceb",
+    "setor": "Energia Elétrica",
+    "cvm_code": "16098",
+    "cnpj": "01.554.970/0001-00"
+  },
+  "CEBR6": {
+    "ticker": "CEBR6",
+    "nome": "Ceb",
+    "setor": "Energia Elétrica",
+    "cvm_code": "16098",
+    "cnpj": "01.554.970/0001-00"
+  },
+  "CEDO3": {
+    "ticker": "CEDO3",
+    "nome": "Cedro",
+    "setor": "Textil",
+    "cvm_code": "3077",
+    "cnpj": "17.245.234/0001-00"
+  },
+  "CEDO4": {
+    "ticker": "CEDO4",
+    "nome": "Cedro",
+    "setor": "Textil",
+    "cvm_code": "3077",
+    "cnpj": "17.245.234/0001-00"
+  },
+  "CEED3": {
+    "ticker": "CEED3",
+    "nome": "Ceee-D",
+    "setor": "Energia Elétrica",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "CEED4": {
+    "ticker": "CEED4",
+    "nome": "Ceee-D",
+    "setor": "Energia Elétrica",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "EEEL3": {
+    "ticker": "EEEL3",
+    "nome": "Ceee-T",
+    "setor": "Energia Elétrica",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "EEEL4": {
+    "ticker": "EEEL4",
+    "nome": "Ceee-T",
+    "setor": "Energia Elétrica",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "CEGR3": {
+    "ticker": "CEGR3",
+    "nome": "Ceg",
+    "setor": "Petróleo e Gas",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "CLSC3": {
+    "ticker": "CLSC3",
+    "nome": "Celesc",
+    "setor": "Energia Elétrica",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "CLSC4": {
+    "ticker": "CLSC4",
+    "nome": "Celesc",
+    "setor": "Energia Elétrica",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "GPAR3": {
+    "ticker": "GPAR3",
+    "nome": "Celgpar",
+    "setor": "Energia Elétrica",
+    "cvm_code": "21393",
+    "cnpj": "08.560.444/0001-93"
+  },
+  "CEPE3": {
+    "ticker": "CEPE3",
+    "nome": "Celpe",
+    "setor": "Energia Elétrica",
+    "cvm_code": "14362",
+    "cnpj": "10.835.932/0001-08"
+  },
+  "CEPE5": {
+    "ticker": "CEPE5",
+    "nome": "Celpe",
+    "setor": "Energia Elétrica",
+    "cvm_code": "14362",
+    "cnpj": "10.835.932/0001-08"
+  },
+  "CEPE6": {
+    "ticker": "CEPE6",
+    "nome": "Celpe",
+    "setor": "Energia Elétrica",
+    "cvm_code": "14362",
+    "cnpj": "10.835.932/0001-08"
+  },
+  "MAPT3": {
+    "ticker": "MAPT3",
+    "nome": "Cemepe",
+    "setor": "Outros",
+    "cvm_code": "13854",
+    "cnpj": "93.828.986/0001-73"
+  },
+  "MAPT4": {
+    "ticker": "MAPT4",
+    "nome": "Cemepe",
+    "setor": "Outros",
+    "cvm_code": "13854",
+    "cnpj": "93.828.986/0001-73"
+  },
+  "CMIG3": {
+    "ticker": "CMIG3",
+    "nome": "Cemig",
+    "setor": "Energia Elétrica",
+    "cvm_code": "20303",
+    "cnpj": "06.981.180/0001-16"
+  },
+  "CMIG4": {
+    "ticker": "CMIG4",
+    "nome": "Cemig",
+    "setor": "Energia Elétrica",
+    "cvm_code": "20303",
+    "cnpj": "06.981.180/0001-16"
+  },
+  "CESP3": {
+    "ticker": "CESP3",
+    "nome": "Cesp",
+    "setor": "Energia Elétrica",
+    "cvm_code": "2577",
+    "cnpj": "60.933.603/0001-78"
+  },
+  "CESP5": {
+    "ticker": "CESP5",
+    "nome": "Cesp",
+    "setor": "Energia Elétrica",
+    "cvm_code": "2577",
+    "cnpj": "60.933.603/0001-78"
+  },
+  "CESP6": {
+    "ticker": "CESP6",
+    "nome": "Cesp",
+    "setor": "Energia Elétrica",
+    "cvm_code": "2577",
+    "cnpj": "60.933.603/0001-78"
+  },
+  "CIEL3": {
+    "ticker": "CIEL3",
+    "nome": "Cielo",
+    "setor": "Software e Dados",
+    "cvm_code": "21733",
+    "cnpj": "01.027.058/0001-91"
+  },
+  "CMSA3": {
+    "ticker": "CMSA3",
+    "nome": "Cims",
+    "setor": "Outros",
+    "cvm_code": "14818",
+    "cnpj": "00.272.185/0001-93"
+  },
+  "CMSA4": {
+    "ticker": "CMSA4",
+    "nome": "Cims",
+    "setor": "Outros",
+    "cvm_code": "14818",
+    "cnpj": "00.272.185/0001-93"
+  },
+  "CNSY3": {
+    "ticker": "CNSY3",
+    "nome": "Cinesystem",
+    "setor": "Outros",
+    "cvm_code": "23965",
+    "cnpj": "07.437.016/0001-05"
+  },
+  "CLSA3": {
+    "ticker": "CLSA3",
+    "nome": "Clearsale",
+    "setor": "Comércio",
+    "cvm_code": "26093",
+    "cnpj": "03.802.115/0001-98"
+  },
+  "CEEB3": {
+    "ticker": "CEEB3",
+    "nome": "Coelba",
+    "setor": "Energia Elétrica",
+    "cvm_code": "14524",
+    "cnpj": "15.139.629/0001-94"
+  },
+  "CEEB5": {
+    "ticker": "CEEB5",
+    "nome": "Coelba",
+    "setor": "Energia Elétrica",
+    "cvm_code": "14524",
+    "cnpj": "15.139.629/0001-94"
+  },
+  "CEEB6": {
+    "ticker": "CEEB6",
+    "nome": "Coelba",
+    "setor": "Energia Elétrica",
+    "cvm_code": "14524",
+    "cnpj": "15.139.629/0001-94"
+  },
+  "COCE3": {
+    "ticker": "COCE3",
+    "nome": "Coelce",
+    "setor": "Energia Elétrica",
+    "cvm_code": "14869",
+    "cnpj": "07.047.251/0001-70"
+  },
+  "COCE5": {
+    "ticker": "COCE5",
+    "nome": "Coelce",
+    "setor": "Energia Elétrica",
+    "cvm_code": "14869",
+    "cnpj": "07.047.251/0001-70"
+  },
+  "COCE6": {
+    "ticker": "COCE6",
+    "nome": "Coelce",
+    "setor": "Energia Elétrica",
+    "cvm_code": "14869",
+    "cnpj": "07.047.251/0001-70"
+  },
+  "COGN3": {
+    "ticker": "COGN3",
+    "nome": "Cogna ON",
+    "setor": "Outros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "COMR3": {
+    "ticker": "COMR3",
+    "nome": "Comerc",
+    "setor": "Energia Elétrica",
+    "cvm_code": "159",
+    "cnpj": "17.157.215/0001-13"
+  },
+  "CGAS3": {
+    "ticker": "CGAS3",
+    "nome": "Comgas",
+    "setor": "Petróleo e Gas",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "CGAS5": {
+    "ticker": "CGAS5",
+    "nome": "Comgas",
+    "setor": "Petróleo e Gas",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "PASS3": {
+    "ticker": "PASS3",
+    "nome": "Compass Gas",
+    "setor": "Petróleo e Gas",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "PASS6": {
+    "ticker": "PASS6",
+    "nome": "Compass Gas",
+    "setor": "Petróleo e Gas",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "CRTE3B": {
+    "ticker": "CRTE3B",
+    "nome": "Conc Rio Ter",
+    "setor": "Transporte Serviç",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "CRTE5B": {
+    "ticker": "CRTE5B",
+    "nome": "Conc Rio Ter",
+    "setor": "Transporte Serviç",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "CALI3": {
+    "ticker": "CALI3",
+    "nome": "Const A Lind",
+    "setor": "Construção",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "CALI4": {
+    "ticker": "CALI4",
+    "nome": "Const A Lind",
+    "setor": "Construção",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "CSMG3": {
+    "ticker": "CSMG3",
+    "nome": "Copasa",
+    "setor": "Outros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "CPLE3": {
+    "ticker": "CPLE3",
+    "nome": "Copel",
+    "setor": "Energia Elétrica",
+    "cvm_code": "14311",
+    "cnpj": "76.483.817/0001-20"
+  },
+  "CPLE5": {
+    "ticker": "CPLE5",
+    "nome": "Copel",
+    "setor": "Energia Elétrica",
+    "cvm_code": "14311",
+    "cnpj": "76.483.817/0001-20"
+  },
+  "CPLE6": {
+    "ticker": "CPLE6",
+    "nome": "Copel",
+    "setor": "Energia Elétrica",
+    "cvm_code": "14311",
+    "cnpj": "76.483.817/0001-20"
+  },
+  "CPLE11": {
+    "ticker": "CPLE11",
+    "nome": "Copel",
+    "setor": "Energia Elétrica",
+    "cvm_code": "14311",
+    "cnpj": "76.483.817/0001-20"
+  },
+  "CORR3": {
+    "ticker": "CORR3",
+    "nome": "Cor Ribeiro",
+    "setor": "Outros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "CORR4": {
+    "ticker": "CORR4",
+    "nome": "Cor Ribeiro",
+    "setor": "Outros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "CSAN3": {
+    "ticker": "CSAN3",
+    "nome": "COSAN S.A.",
+    "setor": "Petróleo e Gas",
+    "cvm_code": "01983-6",
+    "cnpj": "50.746.577/0001-15"
+  },
+  "CSRN3": {
+    "ticker": "CSRN3",
+    "nome": "Cosern",
+    "setor": "Energia Elétrica",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "CSRN5": {
+    "ticker": "CSRN5",
+    "nome": "Cosern",
+    "setor": "Energia Elétrica",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "CSRN6": {
+    "ticker": "CSRN6",
+    "nome": "Cosern",
+    "setor": "Energia Elétrica",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "CTNM3": {
+    "ticker": "CTNM3",
+    "nome": "Coteminas",
+    "setor": "Textil",
+    "cvm_code": "3158",
+    "cnpj": "22.677.520/0001-76"
+  },
+  "CTNM4": {
+    "ticker": "CTNM4",
+    "nome": "Coteminas",
+    "setor": "Textil",
+    "cvm_code": "3158",
+    "cnpj": "22.677.520/0001-76"
+  },
+  "CPFE3": {
+    "ticker": "CPFE3",
+    "nome": "CPFL ENERGIA S.A.",
+    "setor": "Energia Elétrica",
+    "cvm_code": "01866-0",
+    "cnpj": "02.429.144/0001-93"
+  },
+  "CRDE3": {
+    "ticker": "CRDE3",
+    "nome": "Cr2",
+    "setor": "Construção",
+    "cvm_code": "19666",
+    "cnpj": "07.081.339/0001-09"
+  },
+  "CRPG3": {
+    "ticker": "CRPG3",
+    "nome": "Cristal",
+    "setor": "Química",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "CRPG5": {
+    "ticker": "CRPG5",
+    "nome": "Cristal",
+    "setor": "Química",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "CRPG6": {
+    "ticker": "CRPG6",
+    "nome": "Cristal",
+    "setor": "Química",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "CSED3": {
+    "ticker": "CSED3",
+    "nome": "Cruzeiro Edu",
+    "setor": "Outros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "CMIN3": {
+    "ticker": "CMIN3",
+    "nome": "Csn Mineracao",
+    "setor": "Mineração",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "CARD3": {
+    "ticker": "CARD3",
+    "nome": "Csu Cardsyst",
+    "setor": "Outros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "CTCA3": {
+    "ticker": "CTCA3",
+    "nome": "Ctc S.A.",
+    "setor": "Agro e Pesca",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "CURY3": {
+    "ticker": "CURY3",
+    "nome": "Cury S/A",
+    "setor": "Construção",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "CVCB3": {
+    "ticker": "CVCB3",
+    "nome": "Cvc Brasil",
+    "setor": "Transporte Serviç",
+    "cvm_code": "23310",
+    "cnpj": "10.760.260/0001-19"
+  },
+  "CYRE3": {
+    "ticker": "CYRE3",
+    "nome": "Cyrela Realt",
+    "setor": "Construção",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "DMVF3": {
+    "ticker": "DMVF3",
+    "nome": "D1000vfarma",
+    "setor": "Comércio",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "DASA3": {
+    "ticker": "DASA3",
+    "nome": "Dasa",
+    "setor": "Outros",
+    "cvm_code": "15512",
+    "cnpj": "33.870.163/0001-84"
+  },
+  "DESK3": {
+    "ticker": "DESK3",
+    "nome": "Desktopsigma",
+    "setor": "Telecomunicações",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "DXCO3": {
+    "ticker": "DXCO3",
+    "nome": "Dexco",
+    "setor": "Outros",
+    "cvm_code": "21091",
+    "cnpj": "97.837.181/0001-47"
+  },
+  "DEXP3": {
+    "ticker": "DEXP3",
+    "nome": "Dexxos Par",
+    "setor": "Outros",
+    "cvm_code": "16632",
+    "cnpj": "02.193.750/0001-52"
+  },
+  "DEXP4": {
+    "ticker": "DEXP4",
+    "nome": "Dexxos Par",
+    "setor": "Outros",
+    "cvm_code": "16632",
+    "cnpj": "02.193.750/0001-52"
+  },
+  "PNVL3": {
+    "ticker": "PNVL3",
+    "nome": "Dimed",
+    "setor": "Comércio",
+    "cvm_code": "9342",
+    "cnpj": "92.665.611/0001-77"
+  },
+  "DIRR3": {
+    "ticker": "DIRR3",
+    "nome": "DIRECIONAL ENGENHARIA S.A.",
+    "setor": "Construção",
+    "cvm_code": "02182-2",
+    "cnpj": "03.141.011/0001-34"
+  },
+  "DOHL3": {
+    "ticker": "DOHL3",
+    "nome": "Dohler",
+    "setor": "Textil",
+    "cvm_code": "5207",
+    "cnpj": "84.683.408/0001-03"
+  },
+  "DOHL4": {
+    "ticker": "DOHL4",
+    "nome": "Dohler",
+    "setor": "Textil",
+    "cvm_code": "5207",
+    "cnpj": "84.683.408/0001-03"
+  },
+  "DMMO3": {
+    "ticker": "DMMO3",
+    "nome": "Dommo",
+    "setor": "Petróleo e Gas",
+    "cvm_code": "19070",
+    "cnpj": "04.034.792/0001-76"
+  },
+  "DOTZ3": {
+    "ticker": "DOTZ3",
+    "nome": "Dotz SA",
+    "setor": "Outros",
+    "cvm_code": "25836",
+    "cnpj": "18.174.270/0001-84"
+  },
+  "DTCY3": {
+    "ticker": "DTCY3",
+    "nome": "Dtcom Direct",
+    "setor": "Outros",
+    "cvm_code": "18597",
+    "cnpj": "03.303.999/0001-36"
+  },
+  "DTCY4": {
+    "ticker": "DTCY4",
+    "nome": "Dtcom Direct",
+    "setor": "Outros",
+    "cvm_code": "18597",
+    "cnpj": "03.303.999/0001-36"
+  },
+  "ECOR3": {
+    "ticker": "ECOR3",
+    "nome": "Ecorodovias",
+    "setor": "Transporte Serviç",
+    "cvm_code": "21903",
+    "cnpj": "08.873.873/0001-10"
+  },
+  "EKTR3": {
+    "ticker": "EKTR3",
+    "nome": "Elektro",
+    "setor": "Energia Elétrica",
+    "cvm_code": "17485",
+    "cnpj": "02.328.280/0001-97"
+  },
+  "EKTR4": {
+    "ticker": "EKTR4",
+    "nome": "Elektro",
+    "setor": "Energia Elétrica",
+    "cvm_code": "17485",
+    "cnpj": "02.328.280/0001-97"
+  },
+  "ELET3": {
+    "ticker": "ELET3",
+    "nome": "CENTRAIS ELÉTRICAS BRASILEIRAS S.A. - ELETROBRAS",
+    "setor": "Energia Elétrica",
+    "cvm_code": "02437-6",
+    "cnpj": "00.001.180/0001-26"
+  },
+  "ELET5": {
+    "ticker": "ELET5",
+    "nome": "Eletrobras",
+    "setor": "Energia Elétrica",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "ELET6": {
+    "ticker": "ELET6",
+    "nome": "Eletrobras",
+    "setor": "Energia Elétrica",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "ELMD3": {
+    "ticker": "ELMD3",
+    "nome": "Eletromidia",
+    "setor": "Outros",
+    "cvm_code": "25569",
+    "cnpj": "09.347.516/0001-81"
+  },
+  "LIPR3": {
+    "ticker": "LIPR3",
+    "nome": "Eletropar",
+    "setor": "Energia Elétrica",
+    "cvm_code": "15784",
+    "cnpj": "01.104.937/0001-70"
+  },
+  "EMAE3": {
+    "ticker": "EMAE3",
+    "nome": "Emae",
+    "setor": "Energia Elétrica",
+    "cvm_code": "18155",
+    "cnpj": "96.832.365/0001-51"
+  },
+  "EMAE4": {
+    "ticker": "EMAE4",
+    "nome": "Emae",
+    "setor": "Energia Elétrica",
+    "cvm_code": "18155",
+    "cnpj": "96.832.365/0001-51"
+  },
+  "EPAR3": {
+    "ticker": "EPAR3",
+    "nome": "Embpar S/A",
+    "setor": "Comércio",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "EMBR3": {
+    "ticker": "EMBR3",
+    "nome": "Embraer",
+    "setor": "Veiculos e peças",
+    "cvm_code": "5509",
+    "cnpj": "60.208.493/0001-81"
+  },
+  "ENAT3": {
+    "ticker": "ENAT3",
+    "nome": "Enauta Part",
+    "setor": "Petróleo e Gas",
+    "cvm_code": "22365",
+    "cnpj": "11.669.021/0001-10"
+  },
+  "ECPR3": {
+    "ticker": "ECPR3",
+    "nome": "Encorpar",
+    "setor": "Textil",
+    "cvm_code": "16497",
+    "cnpj": "01.971.614/0001-83"
+  },
+  "ECPR4": {
+    "ticker": "ECPR4",
+    "nome": "Encorpar",
+    "setor": "Textil",
+    "cvm_code": "16497",
+    "cnpj": "01.971.614/0001-83"
+  },
+  "ENBR3": {
+    "ticker": "ENBR3",
+    "nome": "Energias BR",
+    "setor": "Energia Elétrica",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "ENGI3": {
+    "ticker": "ENGI3",
+    "nome": "Energisa",
+    "setor": "Energia Elétrica",
+    "cvm_code": "5576",
+    "cnpj": "15.413.826/0001-50"
+  },
+  "ENGI4": {
+    "ticker": "ENGI4",
+    "nome": "Energisa",
+    "setor": "Energia Elétrica",
+    "cvm_code": "5576",
+    "cnpj": "15.413.826/0001-50"
+  },
+  "ENGI11": {
+    "ticker": "ENGI11",
+    "nome": "Energisa",
+    "setor": "Energia Elétrica",
+    "cvm_code": "5576",
+    "cnpj": "15.413.826/0001-50"
+  },
+  "ENMT3": {
+    "ticker": "ENMT3",
+    "nome": "Energisa Mt",
+    "setor": "Energia Elétrica",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "ENMT4": {
+    "ticker": "ENMT4",
+    "nome": "Energisa Mt",
+    "setor": "Energia Elétrica",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "ENEV3": {
+    "ticker": "ENEV3",
+    "nome": "Eneva",
+    "setor": "Energia Elétrica",
+    "cvm_code": "21237",
+    "cnpj": "04.423.567/0001-21"
+  },
+  "EGIE3": {
+    "ticker": "EGIE3",
+    "nome": "Engie Brasil",
+    "setor": "Energia Elétrica",
+    "cvm_code": "17329",
+    "cnpj": "02.474.103/0001-19"
+  },
+  "ENJU3": {
+    "ticker": "ENJU3",
+    "nome": "Enjoei",
+    "setor": "Comércio",
+    "cvm_code": "25259",
+    "cnpj": "16.922.038/0001-51"
+  },
+  "EQMA3B": {
+    "ticker": "EQMA3B",
+    "nome": "Eqtl Maranhao",
+    "setor": "Energia Elétrica",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "EQMA5B": {
+    "ticker": "EQMA5B",
+    "nome": "Eqtl Maranhao",
+    "setor": "Energia Elétrica",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "EQMA6B": {
+    "ticker": "EQMA6B",
+    "nome": "Eqtl Maranhao",
+    "setor": "Energia Elétrica",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "EQPA3": {
+    "ticker": "EQPA3",
+    "nome": "Eqtl Para",
+    "setor": "Energia Elétrica",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "EQPA5": {
+    "ticker": "EQPA5",
+    "nome": "Eqtl Para",
+    "setor": "Energia Elétrica",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "EQPA6": {
+    "ticker": "EQPA6",
+    "nome": "Eqtl Para",
+    "setor": "Energia Elétrica",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "EQPA7": {
+    "ticker": "EQPA7",
+    "nome": "Eqtl Para",
+    "setor": "Energia Elétrica",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "EQTL3": {
+    "ticker": "EQTL3",
+    "nome": "EQUATORIAL ENERGIA S.A.",
+    "setor": "Energia Elétrica",
+    "cvm_code": "02016-8",
+    "cnpj": "03.220.438/0001-73"
+  },
+  "ESPA3": {
+    "ticker": "ESPA3",
+    "nome": "Espacolaser",
+    "setor": "Outros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "ALPK3": {
+    "ticker": "ALPK3",
+    "nome": "Estapar",
+    "setor": "Outros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "ESTR3": {
+    "ticker": "ESTR3",
+    "nome": "Estrela",
+    "setor": "Outros",
+    "cvm_code": "8427",
+    "cnpj": "61.082.004/0001-50"
+  },
+  "ESTR4": {
+    "ticker": "ESTR4",
+    "nome": "Estrela",
+    "setor": "Outros",
+    "cvm_code": "8427",
+    "cnpj": "61.082.004/0001-50"
+  },
+  "ETER3": {
+    "ticker": "ETER3",
+    "nome": "Eternit",
+    "setor": "Minerais não Met",
+    "cvm_code": "5762",
+    "cnpj": "61.092.037/0001-81"
+  },
+  "EUCA3": {
+    "ticker": "EUCA3",
+    "nome": "Eucatex",
+    "setor": "Outros",
+    "cvm_code": "5770",
+    "cnpj": "56.643.018/0001-66"
+  },
+  "EUCA4": {
+    "ticker": "EUCA4",
+    "nome": "Eucatex",
+    "setor": "Outros",
+    "cvm_code": "5770",
+    "cnpj": "56.643.018/0001-66"
+  },
+  "EVEN3": {
+    "ticker": "EVEN3",
+    "nome": "Even",
+    "setor": "Construção",
+    "cvm_code": "21725",
+    "cnpj": "10.345.009/0001-98"
+  },
+  "BAUH3": {
+    "ticker": "BAUH3",
+    "nome": "Excelsior",
+    "setor": "Alimentos e Beb",
+    "cvm_code": "1570",
+    "cnpj": "95.426.862/0001-97"
+  },
+  "BAUH4": {
+    "ticker": "BAUH4",
+    "nome": "Excelsior",
+    "setor": "Alimentos e Beb",
+    "cvm_code": "1570",
+    "cnpj": "95.426.862/0001-97"
+  },
+  "EZTC3": {
+    "ticker": "EZTC3",
+    "nome": "Eztec",
+    "setor": "Construção",
+    "cvm_code": "20770",
+    "cnpj": "08.312.229/0001-73"
+  },
+  "FHER3": {
+    "ticker": "FHER3",
+    "nome": "Fer Heringer",
+    "setor": "Química",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "FESA3": {
+    "ticker": "FESA3",
+    "nome": "Ferbasa",
+    "setor": "Siderur & Metalur",
+    "cvm_code": "3069",
+    "cnpj": "15.141.799/0001-03"
+  },
+  "FESA4": {
+    "ticker": "FESA4",
+    "nome": "Ferbasa",
+    "setor": "Siderur & Metalur",
+    "cvm_code": "3069",
+    "cnpj": "15.141.799/0001-03"
+  },
+  "FNCN3": {
+    "ticker": "FNCN3",
+    "nome": "Finansinos",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "FLRY3": {
+    "ticker": "FLRY3",
+    "nome": "Fleury",
+    "setor": "Outros",
+    "cvm_code": "21881",
+    "cnpj": "60.840.055/0001-31"
+  },
+  "FLEX3": {
+    "ticker": "FLEX3",
+    "nome": "Flex S/A",
+    "setor": "Outros",
+    "cvm_code": "8141",
+    "cnpj": "60.889.854/0001-00"
+  },
+  "POWE3": {
+    "ticker": "POWE3",
+    "nome": "Focus ON",
+    "setor": "Energia Elétrica",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "FRAS3": {
+    "ticker": "FRAS3",
+    "nome": "Fras-Le",
+    "setor": "Veiculos e peças",
+    "cvm_code": "6211",
+    "cnpj": "88.610.126/0001-29"
+  },
+  "G2DI33": {
+    "ticker": "G2DI33",
+    "nome": "G2d Invest",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "GFSA3": {
+    "ticker": "GFSA3",
+    "nome": "Gafisa",
+    "setor": "Construção",
+    "cvm_code": "16101",
+    "cnpj": "01.545.826/0001-07"
+  },
+  "OPGM3B": {
+    "ticker": "OPGM3B",
+    "nome": "Gama Part",
+    "setor": "Outros",
+    "cvm_code": "17965",
+    "cnpj": "02.796.775/0001-40"
+  },
+  "GSHP3": {
+    "ticker": "GSHP3",
+    "nome": "Generalshopp",
+    "setor": "Outros",
+    "cvm_code": "21008",
+    "cnpj": "08.764.621/0001-53"
+  },
+  "GEPA3": {
+    "ticker": "GEPA3",
+    "nome": "Ger Paranap",
+    "setor": "Energia Elétrica",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "GEPA4": {
+    "ticker": "GEPA4",
+    "nome": "Ger Paranap",
+    "setor": "Energia Elétrica",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "GGBR3": {
+    "ticker": "GGBR3",
+    "nome": "Gerdau",
+    "setor": "Siderur & Metalur",
+    "cvm_code": "3980",
+    "cnpj": "33.611.500/0001-19"
+  },
+  "GGBR4": {
+    "ticker": "GGBR4",
+    "nome": "GERDAU S.A.",
+    "setor": "Siderur & Metalur",
+    "cvm_code": "01961-5",
+    "cnpj": "00.000.000/0001-00"
+  },
+  "GOAU3": {
+    "ticker": "GOAU3",
+    "nome": "Gerdau Met",
+    "setor": "Siderur & Metalur",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "GOAU4": {
+    "ticker": "GOAU4",
+    "nome": "Gerdau Met",
+    "setor": "Siderur & Metalur",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "GETT3": {
+    "ticker": "GETT3",
+    "nome": "Getnet BR",
+    "setor": "Software e Dados",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "GETT4": {
+    "ticker": "GETT4",
+    "nome": "Getnet BR",
+    "setor": "Software e Dados",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "GETT11": {
+    "ticker": "GETT11",
+    "nome": "Getnet BR",
+    "setor": "Software e Dados",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "NINJ3": {
+    "ticker": "NINJ3",
+    "nome": "Getninjas",
+    "setor": "Comércio",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "GOLL4": {
+    "ticker": "GOLL4",
+    "nome": "Gol",
+    "setor": "Transporte Serviç",
+    "cvm_code": "17566",
+    "cnpj": "02.605.028/0001-88"
+  },
+  "GPIV33": {
+    "ticker": "GPIV33",
+    "nome": "GP Invest",
+    "setor": "Outros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "GGPS3": {
+    "ticker": "GGPS3",
+    "nome": "Gps",
+    "setor": "Outros",
+    "cvm_code": "25712",
+    "cnpj": "09.229.201/0001-30"
+  },
+  "CGRA3": {
+    "ticker": "CGRA3",
+    "nome": "Grazziotin",
+    "setor": "Comércio",
+    "cvm_code": "4537",
+    "cnpj": "92.012.467/0001-70"
+  },
+  "CGRA4": {
+    "ticker": "CGRA4",
+    "nome": "Grazziotin",
+    "setor": "Comércio",
+    "cvm_code": "4537",
+    "cnpj": "92.012.467/0001-70"
+  },
+  "GRND3": {
+    "ticker": "GRND3",
+    "nome": "Grendene",
+    "setor": "Textil",
+    "cvm_code": "19615",
+    "cnpj": "89.850.341/0001-60"
+  },
+  "GMAT3": {
+    "ticker": "GMAT3",
+    "nome": "Grupo Mateus",
+    "setor": "Comércio",
+    "cvm_code": "25186",
+    "cnpj": "24.990.777/0001-09"
+  },
+  "NTCO3": {
+    "ticker": "NTCO3",
+    "nome": "Grupo Natura",
+    "setor": "Comércio",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "SBFG3": {
+    "ticker": "SBFG3",
+    "nome": "Grupo Sbf",
+    "setor": "Comércio",
+    "cvm_code": "24694",
+    "cnpj": "13.217.485/0001-11"
+  },
+  "SOMA3": {
+    "ticker": "SOMA3",
+    "nome": "Grupo Soma",
+    "setor": "Comércio",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "GUAR3": {
+    "ticker": "GUAR3",
+    "nome": "Guararapes",
+    "setor": "Textil",
+    "cvm_code": "4669",
+    "cnpj": "08.402.943/0001-52"
+  },
+  "HBTS3": {
+    "ticker": "HBTS3",
+    "nome": "Habitasul",
+    "setor": "Outros",
+    "cvm_code": "3298",
+    "cnpj": "87.762.563/0001-03"
+  },
+  "HBTS5": {
+    "ticker": "HBTS5",
+    "nome": "Habitasul",
+    "setor": "Outros",
+    "cvm_code": "3298",
+    "cnpj": "87.762.563/0001-03"
+  },
+  "HBTS6": {
+    "ticker": "HBTS6",
+    "nome": "Habitasul",
+    "setor": "Outros",
+    "cvm_code": "3298",
+    "cnpj": "87.762.563/0001-03"
+  },
+  "HAGA3": {
+    "ticker": "HAGA3",
+    "nome": "Haga S/A",
+    "setor": "Siderur & Metalur",
+    "cvm_code": "13366",
+    "cnpj": "30.540.991/0001-66"
+  },
+  "HAGA4": {
+    "ticker": "HAGA4",
+    "nome": "Haga S/A",
+    "setor": "Siderur & Metalur",
+    "cvm_code": "13366",
+    "cnpj": "30.540.991/0001-66"
+  },
+  "HAPV3": {
+    "ticker": "HAPV3",
+    "nome": "HAPVIDA PARTICIPACOES E INVESTIMENTOS S.A.",
+    "setor": "Outros",
+    "cvm_code": "02453-8",
+    "cnpj": "05.888.580/0001-25"
+  },
+  "HBRE3": {
+    "ticker": "HBRE3",
+    "nome": "Hbr Realty",
+    "setor": "Construção",
+    "cvm_code": "25402",
+    "cnpj": "14.785.152/0001-51"
+  },
+  "HBOR3": {
+    "ticker": "HBOR3",
+    "nome": "Helbor",
+    "setor": "Construção",
+    "cvm_code": "20877",
+    "cnpj": "49.263.189/0001-02"
+  },
+  "HETA3": {
+    "ticker": "HETA3",
+    "nome": "Hercules",
+    "setor": "Siderur & Metalur",
+    "cvm_code": "6629",
+    "cnpj": "92.749.225/0001-63"
+  },
+  "HETA4": {
+    "ticker": "HETA4",
+    "nome": "Hercules",
+    "setor": "Siderur & Metalur",
+    "cvm_code": "6629",
+    "cnpj": "92.749.225/0001-63"
+  },
+  "HBSA3": {
+    "ticker": "HBSA3",
+    "nome": "Hidrovias",
+    "setor": "Transporte Serviç",
+    "cvm_code": "22675",
+    "cnpj": "12.648.327/0001-53"
+  },
+  "HOOT3": {
+    "ticker": "HOOT3",
+    "nome": "Hoteis Othon",
+    "setor": "Outros",
+    "cvm_code": "6700",
+    "cnpj": "33.200.049/0001-47"
+  },
+  "HOOT4": {
+    "ticker": "HOOT4",
+    "nome": "Hoteis Othon",
+    "setor": "Outros",
+    "cvm_code": "6700",
+    "cnpj": "33.200.049/0001-47"
+  },
+  "HYPE3": {
+    "ticker": "HYPE3",
+    "nome": "Hypera",
+    "setor": "Outros",
+    "cvm_code": "21431",
+    "cnpj": "02.932.074/0001-91"
+  },
+  "IGBR3": {
+    "ticker": "IGBR3",
+    "nome": "IGB S/A",
+    "setor": "Eletroeletrônicos",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "IGSN3": {
+    "ticker": "IGSN3",
+    "nome": "Igua SA",
+    "setor": "Outros",
+    "cvm_code": "23175",
+    "cnpj": "08.159.965/0001-33"
+  },
+  "IGTA3": {
+    "ticker": "IGTA3",
+    "nome": "Iguatemi",
+    "setor": "Outros",
+    "cvm_code": "20494",
+    "cnpj": "51.218.147/0001-93"
+  },
+  "PARD3": {
+    "ticker": "PARD3",
+    "nome": "Ihpardini",
+    "setor": "Outros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "MEAL3": {
+    "ticker": "MEAL3",
+    "nome": "Imc S/A",
+    "setor": "Comércio",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "CATA3": {
+    "ticker": "CATA3",
+    "nome": "Ind Cataguas",
+    "setor": "Textil",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "CATA4": {
+    "ticker": "CATA4",
+    "nome": "Ind Cataguas",
+    "setor": "Textil",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "ROMI3": {
+    "ticker": "ROMI3",
+    "nome": "Inds Romi",
+    "setor": "Máquinas Indust",
+    "cvm_code": "7501",
+    "cnpj": "10.810.653/0001-90"
+  },
+  "INEP3": {
+    "ticker": "INEP3",
+    "nome": "Inepar",
+    "setor": "Outros",
+    "cvm_code": "16730",
+    "cnpj": "02.225.714/0001-23"
+  },
+  "INEP4": {
+    "ticker": "INEP4",
+    "nome": "Inepar",
+    "setor": "Outros",
+    "cvm_code": "16730",
+    "cnpj": "02.225.714/0001-23"
+  },
+  "IFCM3": {
+    "ticker": "IFCM3",
+    "nome": "Infracomm",
+    "setor": "Comércio",
+    "cvm_code": "25747",
+    "cnpj": "38.456.921/0001-36"
+  },
+  "INTB3": {
+    "ticker": "INTB3",
+    "nome": "Intelbras",
+    "setor": "Eletroeletrônicos",
+    "cvm_code": "25453",
+    "cnpj": "82.901.000/0001-27"
+  },
+  "INNT3": {
+    "ticker": "INNT3",
+    "nome": "Inter SA",
+    "setor": "Construção",
+    "cvm_code": "24406",
+    "cnpj": "00.416.968/0001-01"
+  },
+  "GNDI3": {
+    "ticker": "GNDI3",
+    "nome": "Intermedica",
+    "setor": "Outros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "IVPR3B": {
+    "ticker": "IVPR3B",
+    "nome": "Invepar",
+    "setor": "Transporte Serviç",
+    "cvm_code": "18775",
+    "cnpj": "03.758.318/0001-24"
+  },
+  "IVPR4B": {
+    "ticker": "IVPR4B",
+    "nome": "Invepar",
+    "setor": "Transporte Serviç",
+    "cvm_code": "18775",
+    "cnpj": "03.758.318/0001-24"
+  },
+  "FIGE3": {
+    "ticker": "FIGE3",
+    "nome": "Invest Bemge",
+    "setor": "Outros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "FIGE4": {
+    "ticker": "FIGE4",
+    "nome": "Invest Bemge",
+    "setor": "Outros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "MYPK3": {
+    "ticker": "MYPK3",
+    "nome": "Iochp-Maxion",
+    "setor": "Veiculos e peças",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "RANI3": {
+    "ticker": "RANI3",
+    "nome": "Irani",
+    "setor": "Papel e Celulose",
+    "cvm_code": "13463",
+    "cnpj": "92.387.018/0001-06"
+  },
+  "IRBR3": {
+    "ticker": "IRBR3",
+    "nome": "Irbbrasil Re",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "24180",
+    "cnpj": "33.376.989/0001-91"
+  },
+  "ITSA3": {
+    "ticker": "ITSA3",
+    "nome": "Itausa",
+    "setor": "Outros",
+    "cvm_code": "7617",
+    "cnpj": "61.532.644/0001-15"
+  },
+  "ITSA4": {
+    "ticker": "ITSA4",
+    "nome": "Itausa",
+    "setor": "Outros",
+    "cvm_code": "7617",
+    "cnpj": "61.532.644/0001-15"
+  },
+  "ITUB3": {
+    "ticker": "ITUB3",
+    "nome": "ITAÚ UNIBANCO HOLDING S.A.",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "01934-8",
+    "cnpj": "60.872.504/0001-23"
+  },
+  "ITUB4": {
+    "ticker": "ITUB4",
+    "nome": "ITAÚ UNIBANCO HOLDING S.A.",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "01934-8",
+    "cnpj": "60.872.504/0001-23"
+  },
+  "JALL3": {
+    "ticker": "JALL3",
+    "nome": "Jallesmachad",
+    "setor": "Outros",
+    "cvm_code": "25496",
+    "cnpj": "02.635.522/0001-95"
+  },
+  "JBSS3": {
+    "ticker": "JBSS3",
+    "nome": "JBS",
+    "setor": "Alimentos e Beb",
+    "cvm_code": "20575",
+    "cnpj": "02.916.265/0001-60"
+  },
+  "JPSA3": {
+    "ticker": "JPSA3",
+    "nome": "Jereissati",
+    "setor": "Outros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "JHSF3": {
+    "ticker": "JHSF3",
+    "nome": "JHSF Part",
+    "setor": "Construção",
+    "cvm_code": "20605",
+    "cnpj": "08.294.224/0001-65"
+  },
+  "JOPA3": {
+    "ticker": "JOPA3",
+    "nome": "Josapar",
+    "setor": "Alimentos e Beb",
+    "cvm_code": "13285",
+    "cnpj": "87.456.562/0001-22"
+  },
+  "JOPA4": {
+    "ticker": "JOPA4",
+    "nome": "Josapar",
+    "setor": "Alimentos e Beb",
+    "cvm_code": "13285",
+    "cnpj": "87.456.562/0001-22"
+  },
+  "JSLG3": {
+    "ticker": "JSLG3",
+    "nome": "JSL",
+    "setor": "Transporte Serviç",
+    "cvm_code": "22020",
+    "cnpj": "52.548.435/0001-79"
+  },
+  "KLAS3": {
+    "ticker": "KLAS3",
+    "nome": "Kallas",
+    "setor": "Construção",
+    "cvm_code": "25798",
+    "cnpj": "09.146.451/0001-06"
+  },
+  "CTKA3": {
+    "ticker": "CTKA3",
+    "nome": "Karsten",
+    "setor": "Textil",
+    "cvm_code": "4146",
+    "cnpj": "82.640.558/0001-04"
+  },
+  "CTKA4": {
+    "ticker": "CTKA4",
+    "nome": "Karsten",
+    "setor": "Textil",
+    "cvm_code": "4146",
+    "cnpj": "82.640.558/0001-04"
+  },
+  "KEPL3": {
+    "ticker": "KEPL3",
+    "nome": "Kepler Weber",
+    "setor": "Siderur & Metalur",
+    "cvm_code": "7870",
+    "cnpj": "91.983.056/0001-69"
+  },
+  "KLBN3": {
+    "ticker": "KLBN3",
+    "nome": "Klabin S/A",
+    "setor": "Papel e Celulose",
+    "cvm_code": "12653",
+    "cnpj": "89.637.490/0001-45"
+  },
+  "KLBN4": {
+    "ticker": "KLBN4",
+    "nome": "Klabin S/A",
+    "setor": "Papel e Celulose",
+    "cvm_code": "12653",
+    "cnpj": "89.637.490/0001-45"
+  },
+  "KLBN11": {
+    "ticker": "KLBN11",
+    "nome": "Klabin S/A",
+    "setor": "Papel e Celulose",
+    "cvm_code": "12653",
+    "cnpj": "89.637.490/0001-45"
+  },
+  "KRSA3": {
+    "ticker": "KRSA3",
+    "nome": "Kora Saude",
+    "setor": "Outros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "LAVV3": {
+    "ticker": "LAVV3",
+    "nome": "Lavvi",
+    "setor": "Construção",
+    "cvm_code": "25062",
+    "cnpj": "26.462.693/0001-28"
+  },
+  "LLBI3": {
+    "ticker": "LLBI3",
+    "nome": "Le Biscuit",
+    "setor": "Comércio",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "LLBI4": {
+    "ticker": "LLBI4",
+    "nome": "Le Biscuit",
+    "setor": "Comércio",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "LLIS3": {
+    "ticker": "LLIS3",
+    "nome": "Le Lis Blanc",
+    "setor": "Textil",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "LMED3": {
+    "ticker": "LMED3",
+    "nome": "Lifemed",
+    "setor": "Outros",
+    "cvm_code": "24872",
+    "cnpj": "02.357.251/0001-53"
+  },
+  "LIGT3": {
+    "ticker": "LIGT3",
+    "nome": "Light S/A",
+    "setor": "Energia Elétrica",
+    "cvm_code": "19879",
+    "cnpj": "03.378.521/0001-75"
+  },
+  "LTEL3B": {
+    "ticker": "LTEL3B",
+    "nome": "Litel",
+    "setor": "Mineração",
+    "cvm_code": "15091",
+    "cnpj": "00.743.065/0001-27"
+  },
+  "LTLA3B": {
+    "ticker": "LTLA3B",
+    "nome": "Litela",
+    "setor": "Mineração",
+    "cvm_code": "24759",
+    "cnpj": "05.495.546/0001-84"
+  },
+  "RENT3": {
+    "ticker": "RENT3",
+    "nome": "LOCALIZA RENT A CAR S.A.",
+    "setor": "Outros",
+    "cvm_code": "01998-4",
+    "cnpj": "16.670.085/0001-55"
+  },
+  "LCAM3": {
+    "ticker": "LCAM3",
+    "nome": "Locamerica",
+    "setor": "Outros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "LWSA3": {
+    "ticker": "LWSA3",
+    "nome": "Locaweb",
+    "setor": "Software e Dados",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "LOGG3": {
+    "ticker": "LOGG3",
+    "nome": "Log Com Prop",
+    "setor": "Construção",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "LOGN3": {
+    "ticker": "LOGN3",
+    "nome": "Log-In",
+    "setor": "Transporte Serviç",
+    "cvm_code": "20710",
+    "cnpj": "42.278.291/0001-24"
+  },
+  "LAME3": {
+    "ticker": "LAME3",
+    "nome": "Lojas Americ",
+    "setor": "Comércio",
+    "cvm_code": "8087",
+    "cnpj": "33.014.556/0001-96"
+  },
+  "LAME4": {
+    "ticker": "LAME4",
+    "nome": "Lojas Americ",
+    "setor": "Comércio",
+    "cvm_code": "8087",
+    "cnpj": "33.014.556/0001-96"
+  },
+  "LAME99": {
+    "ticker": "LAME99",
+    "nome": "Lojas Americ",
+    "setor": "Comércio",
+    "cvm_code": "8087",
+    "cnpj": "33.014.556/0001-96"
+  },
+  "LAME98": {
+    "ticker": "LAME98",
+    "nome": "Lojas Americ",
+    "setor": "Comércio",
+    "cvm_code": "8087",
+    "cnpj": "33.014.556/0001-96"
+  },
+  "AMAR3": {
+    "ticker": "AMAR3",
+    "nome": "Lojas Marisa",
+    "setor": "Comércio",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "LREN3": {
+    "ticker": "LREN3",
+    "nome": "LOJAS RENNER S.A.",
+    "setor": "Comércio",
+    "cvm_code": "00961-0",
+    "cnpj": "92.754.738/0001-62"
+  },
+  "LPSB3": {
+    "ticker": "LPSB3",
+    "nome": "Lopes Brasil",
+    "setor": "Outros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "LUPA3": {
+    "ticker": "LUPA3",
+    "nome": "Lupatech",
+    "setor": "Siderur & Metalur",
+    "cvm_code": "20060",
+    "cnpj": "89.463.822/0001-12"
+  },
+  "MDIA3": {
+    "ticker": "MDIA3",
+    "nome": "M.Diasbranco",
+    "setor": "Alimentos e Beb",
+    "cvm_code": "20338",
+    "cnpj": "07.206.816/0001-15"
+  },
+  "MSRO3": {
+    "ticker": "MSRO3",
+    "nome": "Maestroloc",
+    "setor": "Outros",
+    "cvm_code": "23612",
+    "cnpj": "08.795.211/0001-70"
+  },
+  "MGLU3": {
+    "ticker": "MGLU3",
+    "nome": "MAGAZINE LUIZA S.A.",
+    "setor": "Comércio",
+    "cvm_code": "02247-0",
+    "cnpj": "47.960.950/0001-21"
+  },
+  "MGEL3": {
+    "ticker": "MGEL3",
+    "nome": "Mangels Indl",
+    "setor": "Siderur & Metalur",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "MGEL4": {
+    "ticker": "MGEL4",
+    "nome": "Mangels Indl",
+    "setor": "Siderur & Metalur",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "POMO3": {
+    "ticker": "POMO3",
+    "nome": "Marcopolo",
+    "setor": "Veiculos e peças",
+    "cvm_code": "8451",
+    "cnpj": "88.611.835/0001-29"
+  },
+  "POMO4": {
+    "ticker": "POMO4",
+    "nome": "Marcopolo",
+    "setor": "Veiculos e peças",
+    "cvm_code": "8451",
+    "cnpj": "88.611.835/0001-29"
+  },
+  "MRFG3": {
+    "ticker": "MRFG3",
+    "nome": "Marfrig",
+    "setor": "Alimentos e Beb",
+    "cvm_code": "20788",
+    "cnpj": "03.853.896/0001-40"
+  },
+  "MATD3": {
+    "ticker": "MATD3",
+    "nome": "Mater Dei",
+    "setor": "Outros",
+    "cvm_code": "25690",
+    "cnpj": "16.676.520/0001-59"
+  },
+  "MSPA3": {
+    "ticker": "MSPA3",
+    "nome": "Melhor SP",
+    "setor": "Papel e Celulose",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "MSPA4": {
+    "ticker": "MSPA4",
+    "nome": "Melhor SP",
+    "setor": "Papel e Celulose",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "CASH3": {
+    "ticker": "CASH3",
+    "nome": "Meliuz",
+    "setor": "Software e Dados",
+    "cvm_code": "25232",
+    "cnpj": "14.110.585/0001-07"
+  },
+  "MELK3": {
+    "ticker": "MELK3",
+    "nome": "Melnick",
+    "setor": "Construção",
+    "cvm_code": "25119",
+    "cnpj": "12.181.987/0001-77"
+  },
+  "MNZC3B": {
+    "ticker": "MNZC3B",
+    "nome": "Menezes Cort",
+    "setor": "Transporte Serviç",
+    "cvm_code": "18538",
+    "cnpj": "02.664.042/0001-52"
+  },
+  "BMEB3": {
+    "ticker": "BMEB3",
+    "nome": "Merc Brasil",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "BMEB4": {
+    "ticker": "BMEB4",
+    "nome": "Merc Brasil",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "MERC3": {
+    "ticker": "MERC3",
+    "nome": "Merc Financ",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "MERC4": {
+    "ticker": "MERC4",
+    "nome": "Merc Financ",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "BMIN3": {
+    "ticker": "BMIN3",
+    "nome": "Merc Invest",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "BMIN4": {
+    "ticker": "BMIN4",
+    "nome": "Merc Invest",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "MTIG3": {
+    "ticker": "MTIG3",
+    "nome": "Metal Iguacu",
+    "setor": "Siderur & Metalur",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "MTIG4": {
+    "ticker": "MTIG4",
+    "nome": "Metal Iguacu",
+    "setor": "Siderur & Metalur",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "LEVE3": {
+    "ticker": "LEVE3",
+    "nome": "Metal Leve",
+    "setor": "Veiculos e peças",
+    "cvm_code": "8575",
+    "cnpj": "60.476.884/0001-87"
+  },
+  "FRIO3": {
+    "ticker": "FRIO3",
+    "nome": "Metalfrio",
+    "setor": "Máquinas Indust",
+    "cvm_code": "20613",
+    "cnpj": "04.821.041/0001-08"
+  },
+  "MTSA3": {
+    "ticker": "MTSA3",
+    "nome": "Metisa",
+    "setor": "Siderur & Metalur",
+    "cvm_code": "8753",
+    "cnpj": "86.375.425/0001-09"
+  },
+  "MTSA4": {
+    "ticker": "MTSA4",
+    "nome": "Metisa",
+    "setor": "Siderur & Metalur",
+    "cvm_code": "8753",
+    "cnpj": "86.375.425/0001-09"
+  },
+  "MILS3": {
+    "ticker": "MILS3",
+    "nome": "Mills",
+    "setor": "Outros",
+    "cvm_code": "22012",
+    "cnpj": "27.093.558/0001-15"
+  },
+  "MMAQ3": {
+    "ticker": "MMAQ3",
+    "nome": "Minasmaquina",
+    "setor": "Comércio",
+    "cvm_code": "8818",
+    "cnpj": "17.161.241/0001-15"
+  },
+  "MMAQ4": {
+    "ticker": "MMAQ4",
+    "nome": "Minasmaquina",
+    "setor": "Comércio",
+    "cvm_code": "8818",
+    "cnpj": "17.161.241/0001-15"
+  },
+  "BEEF3": {
+    "ticker": "BEEF3",
+    "nome": "Minerva",
+    "setor": "Alimentos e Beb",
+    "cvm_code": "7455",
+    "cnpj": "10.775.468/0001-01"
+  },
+  "MNPR3": {
+    "ticker": "MNPR3",
+    "nome": "Minupar",
+    "setor": "Alimentos e Beb",
+    "cvm_code": "13765",
+    "cnpj": "90.076.886/0001-40"
+  },
+  "MTRE3": {
+    "ticker": "MTRE3",
+    "nome": "Mitre Realty",
+    "setor": "Construção",
+    "cvm_code": "24902",
+    "cnpj": "07.882.930/0001-65"
+  },
+  "MMXM3": {
+    "ticker": "MMXM3",
+    "nome": "MMX Miner",
+    "setor": "Mineração",
+    "cvm_code": "17914",
+    "cnpj": "02.762.115/0001-49"
+  },
+  "MBLY3": {
+    "ticker": "MBLY3",
+    "nome": "Mobly",
+    "setor": "Comércio",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "MODL3": {
+    "ticker": "MODL3",
+    "nome": "Modalmais",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "MODL4": {
+    "ticker": "MODL4",
+    "nome": "Modalmais",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "MODL11": {
+    "ticker": "MODL11",
+    "nome": "Modalmais",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "MOAR3": {
+    "ticker": "MOAR3",
+    "nome": "Mont Aranha",
+    "setor": "Outros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "MOSI3": {
+    "ticker": "MOSI3",
+    "nome": "Mosaico",
+    "setor": "Comércio",
+    "cvm_code": "25470",
+    "cnpj": "09.083.175/0001-84"
+  },
+  "MDNE3": {
+    "ticker": "MDNE3",
+    "nome": "Moura Dubeux",
+    "setor": "Construção",
+    "cvm_code": "21067",
+    "cnpj": "12.049.631/0001-84"
+  },
+  "MOVI3": {
+    "ticker": "MOVI3",
+    "nome": "Movida",
+    "setor": "Outros",
+    "cvm_code": "25828",
+    "cnpj": "07.976.147/0001-60"
+  },
+  "MRSA3B": {
+    "ticker": "MRSA3B",
+    "nome": "Mrs Logist",
+    "setor": "Transporte Serviç",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "MRSA5B": {
+    "ticker": "MRSA5B",
+    "nome": "Mrs Logist",
+    "setor": "Transporte Serviç",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "MRSA6B": {
+    "ticker": "MRSA6B",
+    "nome": "Mrs Logist",
+    "setor": "Transporte Serviç",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "MRVE3": {
+    "ticker": "MRVE3",
+    "nome": "MRV",
+    "setor": "Construção",
+    "cvm_code": "20915",
+    "cnpj": "08.343.492/0001-20"
+  },
+  "MLAS3": {
+    "ticker": "MLAS3",
+    "nome": "Multilaser",
+    "setor": "Eletroeletrônicos",
+    "cvm_code": "26034",
+    "cnpj": "59.717.553/0001-02"
+  },
+  "MULT3": {
+    "ticker": "MULT3",
+    "nome": "Multiplan",
+    "setor": "Outros",
+    "cvm_code": "20982",
+    "cnpj": "07.816.890/0001-53"
+  },
+  "MNDL3": {
+    "ticker": "MNDL3",
+    "nome": "Mundial",
+    "setor": "Siderur & Metalur",
+    "cvm_code": "9032",
+    "cnpj": "33.042.961/0001-18"
+  },
+  "NEOE3": {
+    "ticker": "NEOE3",
+    "nome": "Neoenergia",
+    "setor": "Energia Elétrica",
+    "cvm_code": "15539",
+    "cnpj": "01.083.200/0001-18"
+  },
+  "NGRD3": {
+    "ticker": "NGRD3",
+    "nome": "Neogrid",
+    "setor": "Software e Dados",
+    "cvm_code": "25399",
+    "cnpj": "10.139.870/0001-08"
+  },
+  "BNBR3": {
+    "ticker": "BNBR3",
+    "nome": "Nord Brasil",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "NORD3": {
+    "ticker": "NORD3",
+    "nome": "Nordon Met",
+    "setor": "Máquinas Indust",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "NRTQ3": {
+    "ticker": "NRTQ3",
+    "nome": "Nortcquimica",
+    "setor": "Química",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "NUTR3": {
+    "ticker": "NUTR3",
+    "nome": "Nutriplant",
+    "setor": "Química",
+    "cvm_code": "21334",
+    "cnpj": "51.128.999/0001-90"
+  },
+  "OPCT3": {
+    "ticker": "OPCT3",
+    "nome": "Oceanpact",
+    "setor": "Mineração",
+    "cvm_code": "25534",
+    "cnpj": "09.114.805/0001-30"
+  },
+  "ODER3": {
+    "ticker": "ODER3",
+    "nome": "Oderich",
+    "setor": "Alimentos e Beb",
+    "cvm_code": "4693",
+    "cnpj": "97.191.902/0001-94"
+  },
+  "ODER4": {
+    "ticker": "ODER4",
+    "nome": "Oderich",
+    "setor": "Alimentos e Beb",
+    "cvm_code": "4693",
+    "cnpj": "97.191.902/0001-94"
+  },
+  "ODPV3": {
+    "ticker": "ODPV3",
+    "nome": "Odontoprev",
+    "setor": "Outros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "OIBR3": {
+    "ticker": "OIBR3",
+    "nome": "Oi",
+    "setor": "Telecomunicações",
+    "cvm_code": "20206",
+    "cnpj": "07.794.351/0001-60"
+  },
+  "OIBR4": {
+    "ticker": "OIBR4",
+    "nome": "Oi",
+    "setor": "Telecomunicações",
+    "cvm_code": "20206",
+    "cnpj": "07.794.351/0001-60"
+  },
+  "OMGE3": {
+    "ticker": "OMGE3",
+    "nome": "Omega Ger",
+    "setor": "Outros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "ONCO3": {
+    "ticker": "ONCO3",
+    "nome": "Oncoclinicas",
+    "setor": "Outros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "OPHE3B": {
+    "ticker": "OPHE3B",
+    "nome": "Opport Energ",
+    "setor": "Outros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "ORVR3": {
+    "ticker": "ORVR3",
+    "nome": "Orizon",
+    "setor": "Energia Elétrica",
+    "cvm_code": "3387",
+    "cnpj": "17.161.316/0001-68"
+  },
+  "OSXB3": {
+    "ticker": "OSXB3",
+    "nome": "OSX Brasil",
+    "setor": "Veiculos e peças",
+    "cvm_code": "21342",
+    "cnpj": "09.112.685/0001-32"
+  },
+  "OFSA3": {
+    "ticker": "OFSA3",
+    "nome": "Ourofino S/A",
+    "setor": "Química",
+    "cvm_code": "23507",
+    "cnpj": "20.258.278/0001-70"
+  },
+  "PCAR3": {
+    "ticker": "PCAR3",
+    "nome": "P.Acucar-Cbd",
+    "setor": "Comércio",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "PCAR99": {
+    "ticker": "PCAR99",
+    "nome": "P.Acucar-Cbd",
+    "setor": "Comércio",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "PDTC3": {
+    "ticker": "PDTC3",
+    "nome": "Padtec",
+    "setor": "Software e Dados",
+    "cvm_code": "18414",
+    "cnpj": "02.365.069/0001-44"
+  },
+  "PGMN3": {
+    "ticker": "PGMN3",
+    "nome": "Pague Menos",
+    "setor": "Comércio",
+    "cvm_code": "22608",
+    "cnpj": "06.626.253/0001-51"
+  },
+  "PATI3": {
+    "ticker": "PATI3",
+    "nome": "Panatlantica",
+    "setor": "Siderur & Metalur",
+    "cvm_code": "94",
+    "cnpj": "92.693.019/0001-89"
+  },
+  "PATI4": {
+    "ticker": "PATI4",
+    "nome": "Panatlantica",
+    "setor": "Siderur & Metalur",
+    "cvm_code": "94",
+    "cnpj": "92.693.019/0001-89"
+  },
+  "PEAB3": {
+    "ticker": "PEAB3",
+    "nome": "Par Al Bahia",
+    "setor": "Outros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "PEAB4": {
+    "ticker": "PEAB4",
+    "nome": "Par Al Bahia",
+    "setor": "Outros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "PMAM3": {
+    "ticker": "PMAM3",
+    "nome": "Paranapanema",
+    "setor": "Siderur & Metalur",
+    "cvm_code": "9393",
+    "cnpj": "60.398.369/0004-79"
+  },
+  "PDGR3": {
+    "ticker": "PDGR3",
+    "nome": "PDG Realt",
+    "setor": "Construção",
+    "cvm_code": "20478",
+    "cnpj": "02.950.811/0001-89"
+  },
+  "RPMG3": {
+    "ticker": "RPMG3",
+    "nome": "Pet Manguinh",
+    "setor": "Petróleo e Gas",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "PETR3": {
+    "ticker": "PETR3",
+    "nome": "PETRÓLEO BRASILEIRO S.A. PETROBRAS",
+    "setor": "Petróleo e Gas",
+    "cvm_code": "00951-2",
+    "cnpj": "33.000.167/0001-01"
+  },
+  "PETR4": {
+    "ticker": "PETR4",
+    "nome": "PETRÓLEO BRASILEIRO S.A. PETROBRAS",
+    "setor": "Petróleo e Gas",
+    "cvm_code": "00951-2",
+    "cnpj": "33.000.167/0001-01"
+  },
+  "RECV3": {
+    "ticker": "RECV3",
+    "nome": "Petrorecsa",
+    "setor": "Petróleo e Gas",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "PRIO3": {
+    "ticker": "PRIO3",
+    "nome": "PRIO S.A.",
+    "setor": "Petróleo e Gas",
+    "cvm_code": "02220-9",
+    "cnpj": "11.396.471/0001-20"
+  },
+  "PTNT3": {
+    "ticker": "PTNT3",
+    "nome": "Pettenati",
+    "setor": "Textil",
+    "cvm_code": "9539",
+    "cnpj": "88.613.658/0001-10"
+  },
+  "PTNT4": {
+    "ticker": "PTNT4",
+    "nome": "Pettenati",
+    "setor": "Textil",
+    "cvm_code": "9539",
+    "cnpj": "88.613.658/0001-10"
+  },
+  "PETZ3": {
+    "ticker": "PETZ3",
+    "nome": "Petz",
+    "setor": "Comércio",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "PINE3": {
+    "ticker": "PINE3",
+    "nome": "Pine",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "20567",
+    "cnpj": "62.144.175/0001-20"
+  },
+  "PINE4": {
+    "ticker": "PINE4",
+    "nome": "Pine",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "20567",
+    "cnpj": "62.144.175/0001-20"
+  },
+  "PLPL3": {
+    "ticker": "PLPL3",
+    "nome": "Planoeplano",
+    "setor": "Construção",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "PLAS3": {
+    "ticker": "PLAS3",
+    "nome": "Plascar Part",
+    "setor": "Veiculos e peças",
+    "cvm_code": "13471",
+    "cnpj": "51.928.174/0001-50"
+  },
+  "PPAR3": {
+    "ticker": "PPAR3",
+    "nome": "Polpar",
+    "setor": "Outros",
+    "cvm_code": "13447",
+    "cnpj": "59.789.545/0001-71"
+  },
+  "FRTA3": {
+    "ticker": "FRTA3",
+    "nome": "Pomifrutas",
+    "setor": "Agro e Pesca",
+    "cvm_code": "19658",
+    "cnpj": "86.550.951/0001-50"
+  },
+  "PSSA3": {
+    "ticker": "PSSA3",
+    "nome": "Porto Seguro",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "16659",
+    "cnpj": "02.149.205/0001-69"
+  },
+  "PTBL3": {
+    "ticker": "PTBL3",
+    "nome": "Portobello",
+    "setor": "Minerais não Met",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "POSI3": {
+    "ticker": "POSI3",
+    "nome": "Positivo Tec",
+    "setor": "Eletroeletrônicos",
+    "cvm_code": "20362",
+    "cnpj": "81.243.735/0001-48"
+  },
+  "PPLA11": {
+    "ticker": "PPLA11",
+    "nome": "Ppla",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "PTCA3": {
+    "ticker": "PTCA3",
+    "nome": "Pratica",
+    "setor": "Eletroeletrônicos",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "PTCA11": {
+    "ticker": "PTCA11",
+    "nome": "Pratica",
+    "setor": "Eletroeletrônicos",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "PRNR3": {
+    "ticker": "PRNR3",
+    "nome": "Priner",
+    "setor": "Construção",
+    "cvm_code": "24236",
+    "cnpj": "18.593.815/0001-97"
+  },
+  "PFRM3": {
+    "ticker": "PFRM3",
+    "nome": "Profarma",
+    "setor": "Comércio",
+    "cvm_code": "20346",
+    "cnpj": "45.453.214/0001-51"
+  },
+  "PRPT3B": {
+    "ticker": "PRPT3B",
+    "nome": "Prompt Part",
+    "setor": "Outros",
+    "cvm_code": "18333",
+    "cnpj": "02.992.449/0001-09"
+  },
+  "QUAL3": {
+    "ticker": "QUAL3",
+    "nome": "Qualicorp",
+    "setor": "Outros",
+    "cvm_code": "22497",
+    "cnpj": "11.992.680/0001-93"
+  },
+  "QUSW3": {
+    "ticker": "QUSW3",
+    "nome": "Quality Soft",
+    "setor": "Software e Dados",
+    "cvm_code": "23302",
+    "cnpj": "35.791.391/0001-94"
+  },
+  "LJQQ3": {
+    "ticker": "LJQQ3",
+    "nome": "Quero-Quero",
+    "setor": "Comércio",
+    "cvm_code": "25038",
+    "cnpj": "96.418.264/0218-02"
+  },
+  "RADL3": {
+    "ticker": "RADL3",
+    "nome": "RAIADROGASIL S.A.",
+    "setor": "Comércio",
+    "cvm_code": "02027-3",
+    "cnpj": "61.585.865/0001-51"
+  },
+  "RAIZ4": {
+    "ticker": "RAIZ4",
+    "nome": "RAÍZEN S.A.",
+    "setor": "Petróleo e Gas",
+    "cvm_code": "02588-7",
+    "cnpj": "33.453.598/0001-23"
+  },
+  "RAPT3": {
+    "ticker": "RAPT3",
+    "nome": "Randon Part",
+    "setor": "Veiculos e peças",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "RAPT4": {
+    "ticker": "RAPT4",
+    "nome": "Randon Part",
+    "setor": "Veiculos e peças",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "RCSL3": {
+    "ticker": "RCSL3",
+    "nome": "Recrusul",
+    "setor": "Veiculos e peças",
+    "cvm_code": "12572",
+    "cnpj": "91.333.666/0001-17"
+  },
+  "RCSL4": {
+    "ticker": "RCSL4",
+    "nome": "Recrusul",
+    "setor": "Veiculos e peças",
+    "cvm_code": "12572",
+    "cnpj": "91.333.666/0001-17"
+  },
+  "RDOR3": {
+    "ticker": "RDOR3",
+    "nome": "REDE D'OR SÃO LUIZ S.A.",
+    "setor": "Outros",
+    "cvm_code": "02534-8",
+    "cnpj": "06.047.087/0001-39"
+  },
+  "REDE3": {
+    "ticker": "REDE3",
+    "nome": "Rede Energia",
+    "setor": "Energia Elétrica",
+    "cvm_code": "3190",
+    "cnpj": "61.584.140/0001-49"
+  },
+  "RNEW3": {
+    "ticker": "RNEW3",
+    "nome": "Renova",
+    "setor": "Energia Elétrica",
+    "cvm_code": "23744",
+    "cnpj": "19.133.012/0001-12"
+  },
+  "RNEW4": {
+    "ticker": "RNEW4",
+    "nome": "Renova",
+    "setor": "Energia Elétrica",
+    "cvm_code": "23744",
+    "cnpj": "19.133.012/0001-12"
+  },
+  "RNEW11": {
+    "ticker": "RNEW11",
+    "nome": "Renova",
+    "setor": "Energia Elétrica",
+    "cvm_code": "23744",
+    "cnpj": "19.133.012/0001-12"
+  },
+  "RSUL3": {
+    "ticker": "RSUL3",
+    "nome": "Riosulense",
+    "setor": "Veiculos e peças",
+    "cvm_code": "13439",
+    "cnpj": "85.778.074/0001-06"
+  },
+  "RSUL4": {
+    "ticker": "RSUL4",
+    "nome": "Riosulense",
+    "setor": "Veiculos e peças",
+    "cvm_code": "13439",
+    "cnpj": "85.778.074/0001-06"
+  },
+  "RDNI3": {
+    "ticker": "RDNI3",
+    "nome": "Rni",
+    "setor": "Construção",
+    "cvm_code": "5762",
+    "cnpj": "61.092.037/0001-81"
+  },
+  "RBNS11": {
+    "ticker": "RBNS11",
+    "nome": "Rodobens",
+    "setor": "Comércio",
+    "cvm_code": "25801",
+    "cnpj": "59.981.829/0001-65"
+  },
+  "RSID3": {
+    "ticker": "RSID3",
+    "nome": "Rossi Resid",
+    "setor": "Construção",
+    "cvm_code": "16306",
+    "cnpj": "61.065.751/0001-80"
+  },
+  "RAIL3": {
+    "ticker": "RAIL3",
+    "nome": "Rumo S.A.",
+    "setor": "Transporte Serviç",
+    "cvm_code": "17450",
+    "cnpj": "02.387.241/0001-60"
+  },
+  "SBSP3": {
+    "ticker": "SBSP3",
+    "nome": "Sabesp",
+    "setor": "Outros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "SAPR3": {
+    "ticker": "SAPR3",
+    "nome": "Sanepar",
+    "setor": "Outros",
+    "cvm_code": "18627",
+    "cnpj": "76.484.013/0001-45"
+  },
+  "SAPR4": {
+    "ticker": "SAPR4",
+    "nome": "Sanepar",
+    "setor": "Outros",
+    "cvm_code": "18627",
+    "cnpj": "76.484.013/0001-45"
+  },
+  "SAPR11": {
+    "ticker": "SAPR11",
+    "nome": "Sanepar",
+    "setor": "Outros",
+    "cvm_code": "18627",
+    "cnpj": "76.484.013/0001-45"
+  },
+  "SNSY3": {
+    "ticker": "SNSY3",
+    "nome": "Sansuy",
+    "setor": "Outros",
+    "cvm_code": "10405",
+    "cnpj": "61.070.678/0001-35"
+  },
+  "SNSY5": {
+    "ticker": "SNSY5",
+    "nome": "Sansuy",
+    "setor": "Outros",
+    "cvm_code": "10405",
+    "cnpj": "61.070.678/0001-35"
+  },
+  "SNSY6": {
+    "ticker": "SNSY6",
+    "nome": "Sansuy",
+    "setor": "Outros",
+    "cvm_code": "10405",
+    "cnpj": "61.070.678/0001-35"
+  },
+  "SANB3": {
+    "ticker": "SANB3",
+    "nome": "Santander BR",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "20532",
+    "cnpj": "90.400.888/0001-42"
+  },
+  "SANB4": {
+    "ticker": "SANB4",
+    "nome": "Santander BR",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "20532",
+    "cnpj": "90.400.888/0001-42"
+  },
+  "SANB11": {
+    "ticker": "SANB11",
+    "nome": "Santander BR",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "20532",
+    "cnpj": "90.400.888/0001-42"
+  },
+  "SANB99": {
+    "ticker": "SANB99",
+    "nome": "Santander BR",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "20532",
+    "cnpj": "90.400.888/0001-42"
+  },
+  "CTSA3": {
+    "ticker": "CTSA3",
+    "nome": "Santanense",
+    "setor": "Textil",
+    "cvm_code": "4081",
+    "cnpj": "21.255.567/0001-89"
+  },
+  "CTSA4": {
+    "ticker": "CTSA4",
+    "nome": "Santanense",
+    "setor": "Textil",
+    "cvm_code": "4081",
+    "cnpj": "21.255.567/0001-89"
+  },
+  "STBP3": {
+    "ticker": "STBP3",
+    "nome": "Santos Brp",
+    "setor": "Transporte Serviç",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "SCAR3": {
+    "ticker": "SCAR3",
+    "nome": "Sao Carlos",
+    "setor": "Outros",
+    "cvm_code": "13781",
+    "cnpj": "29.780.061/0001-09"
+  },
+  "SMTO3": {
+    "ticker": "SMTO3",
+    "nome": "Sao Martinho",
+    "setor": "Outros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "SLED3": {
+    "ticker": "SLED3",
+    "nome": "Saraiva Livr",
+    "setor": "Outros",
+    "cvm_code": "10472",
+    "cnpj": "60.500.139/0001-26"
+  },
+  "SLED4": {
+    "ticker": "SLED4",
+    "nome": "Saraiva Livr",
+    "setor": "Outros",
+    "cvm_code": "10472",
+    "cnpj": "60.500.139/0001-26"
+  },
+  "SHUL3": {
+    "ticker": "SHUL3",
+    "nome": "Schulz",
+    "setor": "Veiculos e peças",
+    "cvm_code": "14664",
+    "cnpj": "84.693.183/0001-68"
+  },
+  "SHUL4": {
+    "ticker": "SHUL4",
+    "nome": "Schulz",
+    "setor": "Veiculos e peças",
+    "cvm_code": "14664",
+    "cnpj": "84.693.183/0001-68"
+  },
+  "CSAB3": {
+    "ticker": "CSAB3",
+    "nome": "Seg Al Bahia",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "CSAB4": {
+    "ticker": "CSAB4",
+    "nome": "Seg Al Bahia",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "SEQL3": {
+    "ticker": "SEQL3",
+    "nome": "Sequoia Log",
+    "setor": "Transporte Serviç",
+    "cvm_code": "25160",
+    "cnpj": "01.599.101/0001-93"
+  },
+  "SEER3": {
+    "ticker": "SEER3",
+    "nome": "Ser Educa",
+    "setor": "Outros",
+    "cvm_code": "23221",
+    "cnpj": "04.986.320/0001-13"
+  },
+  "CSNA3": {
+    "ticker": "CSNA3",
+    "nome": "Sid Nacional",
+    "setor": "Siderur & Metalur",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "SIMH3": {
+    "ticker": "SIMH3",
+    "nome": "Simpar",
+    "setor": "Transporte Serviç",
+    "cvm_code": "25003",
+    "cnpj": "07.415.333/0001-20"
+  },
+  "SQIA3": {
+    "ticker": "SQIA3",
+    "nome": "Sinqia",
+    "setor": "Software e Dados",
+    "cvm_code": "22799",
+    "cnpj": "04.065.791/0001-99"
+  },
+  "SLCE3": {
+    "ticker": "SLCE3",
+    "nome": "SLC Agricola",
+    "setor": "Agro e Pesca",
+    "cvm_code": "20745",
+    "cnpj": "89.096.457/0001-55"
+  },
+  "SMFT3": {
+    "ticker": "SMFT3",
+    "nome": "Smart Fit",
+    "setor": "Outros",
+    "cvm_code": "24260",
+    "cnpj": "07.594.978/0001-78"
+  },
+  "SOND3": {
+    "ticker": "SOND3",
+    "nome": "Sondotecnica",
+    "setor": "Outros",
+    "cvm_code": "10880",
+    "cnpj": "33.386.210/0001-19"
+  },
+  "SOND5": {
+    "ticker": "SOND5",
+    "nome": "Sondotecnica",
+    "setor": "Outros",
+    "cvm_code": "10880",
+    "cnpj": "33.386.210/0001-19"
+  },
+  "SOND6": {
+    "ticker": "SOND6",
+    "nome": "Sondotecnica",
+    "setor": "Outros",
+    "cvm_code": "10880",
+    "cnpj": "33.386.210/0001-19"
+  },
+  "SGPS3": {
+    "ticker": "SGPS3",
+    "nome": "Springs",
+    "setor": "Textil",
+    "cvm_code": "20966",
+    "cnpj": "07.718.269/0001-57"
+  },
+  "AHEB3": {
+    "ticker": "AHEB3",
+    "nome": "SPturis",
+    "setor": "Outros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "AHEB5": {
+    "ticker": "AHEB5",
+    "nome": "SPturis",
+    "setor": "Outros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "AHEB6": {
+    "ticker": "AHEB6",
+    "nome": "SPturis",
+    "setor": "Outros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "STTR3": {
+    "ticker": "STTR3",
+    "nome": "Stara",
+    "setor": "Máquinas Indust",
+    "cvm_code": "4502",
+    "cnpj": "61.565.552/0001-31"
+  },
+  "STKF3": {
+    "ticker": "STKF3",
+    "nome": "Statkraft",
+    "setor": "Energia Elétrica",
+    "cvm_code": "22594",
+    "cnpj": "00.622.416/0001-41"
+  },
+  "OPSE3B": {
+    "ticker": "OPSE3B",
+    "nome": "Sudeste S/A",
+    "setor": "Outros",
+    "cvm_code": "24708",
+    "cnpj": "04.992.714/0001-84"
+  },
+  "OPTS3B": {
+    "ticker": "OPTS3B",
+    "nome": "Sul 116 Part",
+    "setor": "Telecomunicações",
+    "cvm_code": "16438",
+    "cnpj": "01.957.772/0001-89"
+  },
+  "SULA3": {
+    "ticker": "SULA3",
+    "nome": "Sul America",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "18791",
+    "cnpj": "00.021.096/0001-74"
+  },
+  "SULA4": {
+    "ticker": "SULA4",
+    "nome": "Sul America",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "18791",
+    "cnpj": "00.021.096/0001-74"
+  },
+  "SULA11": {
+    "ticker": "SULA11",
+    "nome": "Sul America",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "18791",
+    "cnpj": "00.021.096/0001-74"
+  },
+  "NEMO3": {
+    "ticker": "NEMO3",
+    "nome": "Suzano Hold",
+    "setor": "Outros",
+    "cvm_code": "9067",
+    "cnpj": "60.651.809/0001-05"
+  },
+  "NEMO5": {
+    "ticker": "NEMO5",
+    "nome": "Suzano Hold",
+    "setor": "Outros",
+    "cvm_code": "9067",
+    "cnpj": "60.651.809/0001-05"
+  },
+  "NEMO6": {
+    "ticker": "NEMO6",
+    "nome": "Suzano Hold",
+    "setor": "Outros",
+    "cvm_code": "9067",
+    "cnpj": "60.651.809/0001-05"
+  },
+  "SUZB3": {
+    "ticker": "SUZB3",
+    "nome": "SUZANO S.A.",
+    "setor": "Papel e Celulose",
+    "cvm_code": "01642-0",
+    "cnpj": "16.404.287/0001-55"
+  },
+  "SYNE3": {
+    "ticker": "SYNE3",
+    "nome": "Syn Prop Tec",
+    "setor": "Outros",
+    "cvm_code": "21040",
+    "cnpj": "08.801.621/0001-86"
+  },
+  "TAEE3": {
+    "ticker": "TAEE3",
+    "nome": "Taesa",
+    "setor": "Energia Elétrica",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "TAEE4": {
+    "ticker": "TAEE4",
+    "nome": "Taesa",
+    "setor": "Energia Elétrica",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "TAEE11": {
+    "ticker": "TAEE11",
+    "nome": "Taesa",
+    "setor": "Energia Elétrica",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "TASA3": {
+    "ticker": "TASA3",
+    "nome": "Taurus Armas",
+    "setor": "Siderur & Metalur",
+    "cvm_code": "6173",
+    "cnpj": "92.781.335/0001-02"
+  },
+  "TASA4": {
+    "ticker": "TASA4",
+    "nome": "Taurus Armas",
+    "setor": "Siderur & Metalur",
+    "cvm_code": "6173",
+    "cnpj": "92.781.335/0001-02"
+  },
+  "TRAD3": {
+    "ticker": "TRAD3",
+    "nome": "Tc",
+    "setor": "Software e Dados",
+    "cvm_code": "1945",
+    "cnpj": "60.856.820/0001-01"
+  },
+  "TECN3": {
+    "ticker": "TECN3",
+    "nome": "Technos",
+    "setor": "Outros",
+    "cvm_code": "11169",
+    "cnpj": "92.672.203/0001-42"
+  },
+  "TCSA3": {
+    "ticker": "TCSA3",
+    "nome": "Tecnisa",
+    "setor": "Construção",
+    "cvm_code": "20435",
+    "cnpj": "08.065.557/0001-12"
+  },
+  "TCNO3": {
+    "ticker": "TCNO3",
+    "nome": "Tecnosolo",
+    "setor": "Outros",
+    "cvm_code": "11207",
+    "cnpj": "33.111.246/0001-90"
+  },
+  "TCNO4": {
+    "ticker": "TCNO4",
+    "nome": "Tecnosolo",
+    "setor": "Outros",
+    "cvm_code": "11207",
+    "cnpj": "33.111.246/0001-90"
+  },
+  "TGMA3": {
+    "ticker": "TGMA3",
+    "nome": "Tegma",
+    "setor": "Transporte Serviç",
+    "cvm_code": "20800",
+    "cnpj": "02.351.144/0001-18"
+  },
+  "TEGA3": {
+    "ticker": "TEGA3",
+    "nome": "Tegra Incorp",
+    "setor": "Construção",
+    "cvm_code": "25844",
+    "cnpj": "30.213.493/0001-09"
+  },
+  "TEKA3": {
+    "ticker": "TEKA3",
+    "nome": "Teka",
+    "setor": "Textil",
+    "cvm_code": "11223",
+    "cnpj": "82.636.986/0001-55"
+  },
+  "TEKA4": {
+    "ticker": "TEKA4",
+    "nome": "Teka",
+    "setor": "Textil",
+    "cvm_code": "11223",
+    "cnpj": "82.636.986/0001-55"
+  },
+  "TKNO3": {
+    "ticker": "TKNO3",
+    "nome": "Tekno",
+    "setor": "Siderur & Metalur",
+    "cvm_code": "11231",
+    "cnpj": "33.467.572/0001-34"
+  },
+  "TKNO4": {
+    "ticker": "TKNO4",
+    "nome": "Tekno",
+    "setor": "Siderur & Metalur",
+    "cvm_code": "11231",
+    "cnpj": "33.467.572/0001-34"
+  },
+  "TELB3": {
+    "ticker": "TELB3",
+    "nome": "Telebras",
+    "setor": "Telecomunicações",
+    "cvm_code": "17159",
+    "cnpj": "02.320.032/0001-08"
+  },
+  "TELB4": {
+    "ticker": "TELB4",
+    "nome": "Telebras",
+    "setor": "Telecomunicações",
+    "cvm_code": "17159",
+    "cnpj": "02.320.032/0001-08"
+  },
+  "VIVT3": {
+    "ticker": "VIVT3",
+    "nome": "TELEFÔNICA BRASIL S.A.",
+    "setor": "Telecomunicações",
+    "cvm_code": "01767-1",
+    "cnpj": "02.558.157/0001-62"
+  },
+  "TEND3": {
+    "ticker": "TEND3",
+    "nome": "Tenda",
+    "setor": "Construção",
+    "cvm_code": "21148",
+    "cnpj": "71.476.527/0001-35"
+  },
+  "LAND3": {
+    "ticker": "LAND3",
+    "nome": "Terrasantapa",
+    "setor": "Outros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "TXRX3": {
+    "ticker": "TXRX3",
+    "nome": "Tex Renaux",
+    "setor": "Textil",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "TXRX4": {
+    "ticker": "TXRX4",
+    "nome": "Tex Renaux",
+    "setor": "Textil",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "TIMS3": {
+    "ticker": "TIMS3",
+    "nome": "Tim",
+    "setor": "Telecomunicações",
+    "cvm_code": "21490",
+    "cnpj": "08.364.948/0001-38"
+  },
+  "SHOW3": {
+    "ticker": "SHOW3",
+    "nome": "Time For Fun",
+    "setor": "Outros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "TOTS3": {
+    "ticker": "TOTS3",
+    "nome": "TOTVS S.A.",
+    "setor": "Software e Dados",
+    "cvm_code": "01997-6",
+    "cnpj": "53.113.791/0001-22"
+  },
+  "TFCO4": {
+    "ticker": "TFCO4",
+    "nome": "Track Field",
+    "setor": "Comércio",
+    "cvm_code": "25208",
+    "cnpj": "59.418.806/0001-47"
+  },
+  "TRPL3": {
+    "ticker": "TRPL3",
+    "nome": "Tran Paulist",
+    "setor": "Energia Elétrica",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "TRPL4": {
+    "ticker": "TRPL4",
+    "nome": "Tran Paulist",
+    "setor": "Energia Elétrica",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "LUXM3": {
+    "ticker": "LUXM3",
+    "nome": "Trevisa",
+    "setor": "Outros",
+    "cvm_code": "8192",
+    "cnpj": "92.660.570/0001-26"
+  },
+  "LUXM4": {
+    "ticker": "LUXM4",
+    "nome": "Trevisa",
+    "setor": "Outros",
+    "cvm_code": "8192",
+    "cnpj": "92.660.570/0001-26"
+  },
+  "TRIS3": {
+    "ticker": "TRIS3",
+    "nome": "Trisul",
+    "setor": "Construção",
+    "cvm_code": "21130",
+    "cnpj": "08.811.643/0001-27"
+  },
+  "TPIS3": {
+    "ticker": "TPIS3",
+    "nome": "Triunfo Part",
+    "setor": "Transporte Serviç",
+    "cvm_code": "19330",
+    "cnpj": "03.014.553/0001-91"
+  },
+  "TUPY3": {
+    "ticker": "TUPY3",
+    "nome": "Tupy",
+    "setor": "Veiculos e peças",
+    "cvm_code": "13870",
+    "cnpj": "81.599.961/0001-66"
+  },
+  "UGPA3": {
+    "ticker": "UGPA3",
+    "nome": "ULTRAPAR PARTICIPACOES S.A.",
+    "setor": "Petróleo e Gas",
+    "cvm_code": "01846-5",
+    "cnpj": "33.256.439/0001-39"
+  },
+  "UCAS3": {
+    "ticker": "UCAS3",
+    "nome": "Unicasa",
+    "setor": "Outros",
+    "cvm_code": "22780",
+    "cnpj": "90.441.460/0001-48"
+  },
+  "FIQE3": {
+    "ticker": "FIQE3",
+    "nome": "Unifique",
+    "setor": "Telecomunicações",
+    "cvm_code": "26050",
+    "cnpj": "02.255.187/0001-08"
+  },
+  "UNIP3": {
+    "ticker": "UNIP3",
+    "nome": "Unipar",
+    "setor": "Química",
+    "cvm_code": "11592",
+    "cnpj": "33.958.695/0001-78"
+  },
+  "UNIP5": {
+    "ticker": "UNIP5",
+    "nome": "Unipar",
+    "setor": "Química",
+    "cvm_code": "11592",
+    "cnpj": "33.958.695/0001-78"
+  },
+  "UNIP6": {
+    "ticker": "UNIP6",
+    "nome": "Unipar",
+    "setor": "Química",
+    "cvm_code": "11592",
+    "cnpj": "33.958.695/0001-78"
+  },
+  "UPKP3B": {
+    "ticker": "UPKP3B",
+    "nome": "Uptick",
+    "setor": "Energia Elétrica",
+    "cvm_code": "16624",
+    "cnpj": "02.162.616/0001-94"
+  },
+  "USIM3": {
+    "ticker": "USIM3",
+    "nome": "Usiminas",
+    "setor": "Siderur & Metalur",
+    "cvm_code": "14320",
+    "cnpj": "60.894.730/0001-05"
+  },
+  "USIM5": {
+    "ticker": "USIM5",
+    "nome": "Usiminas",
+    "setor": "Siderur & Metalur",
+    "cvm_code": "14320",
+    "cnpj": "60.894.730/0001-05"
+  },
+  "USIM6": {
+    "ticker": "USIM6",
+    "nome": "Usiminas",
+    "setor": "Siderur & Metalur",
+    "cvm_code": "14320",
+    "cnpj": "60.894.730/0001-05"
+  },
+  "VALE3": {
+    "ticker": "VALE3",
+    "nome": "VALE S.A.",
+    "setor": "Mineração",
+    "cvm_code": "00417-0",
+    "cnpj": "15.031.206/0001-55"
+  },
+  "VLID3": {
+    "ticker": "VLID3",
+    "nome": "Valid",
+    "setor": "Outros",
+    "cvm_code": "20028",
+    "cnpj": "33.113.309/0001-47"
+  },
+  "VAMO3": {
+    "ticker": "VAMO3",
+    "nome": "Vamos",
+    "setor": "Outros",
+    "cvm_code": "24716",
+    "cnpj": "23.373.000/0001-32"
+  },
+  "VIIA3": {
+    "ticker": "VIIA3",
+    "nome": "Via",
+    "setor": "Comércio",
+    "cvm_code": "159",
+    "cnpj": "17.157.215/0001-13"
+  },
+  "VBBR3": {
+    "ticker": "VBBR3",
+    "nome": "VIBRA ENERGIA S.A.",
+    "setor": "Petróleo e Gas",
+    "cvm_code": "02439-2",
+    "cnpj": "34.274.233/0001-02"
+  },
+  "VITT3": {
+    "ticker": "VITT3",
+    "nome": "Vittia",
+    "setor": "Agro e Pesca",
+    "cvm_code": "25763",
+    "cnpj": "45.365.558/0001-09"
+  },
+  "VIVA3": {
+    "ticker": "VIVA3",
+    "nome": "Vivara S.A.",
+    "setor": "Comércio",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "VVEO3": {
+    "ticker": "VVEO3",
+    "nome": "Viveo",
+    "setor": "Comércio",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "VIVR3": {
+    "ticker": "VIVR3",
+    "nome": "Viver",
+    "setor": "Construção",
+    "cvm_code": "20702",
+    "cnpj": "67.571.414/0001-41"
+  },
+  "VULC3": {
+    "ticker": "VULC3",
+    "nome": "Vulcabras",
+    "setor": "Textil",
+    "cvm_code": "11762",
+    "cnpj": "50.926.955/0001-42"
+  },
+  "LVTC3": {
+    "ticker": "LVTC3",
+    "nome": "Wdc Networks",
+    "setor": "Comércio",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "WEGE3": {
+    "ticker": "WEGE3",
+    "nome": "WEG S.A.",
+    "setor": "Máquinas Indust",
+    "cvm_code": "01540-7",
+    "cnpj": "84.429.695/0001-11"
+  },
+  "WEST3": {
+    "ticker": "WEST3",
+    "nome": "Westwing",
+    "setor": "Comércio",
+    "cvm_code": "25518",
+    "cnpj": "14.776.142/0001-50"
+  },
+  "MWET3": {
+    "ticker": "MWET3",
+    "nome": "Wetzel S/A",
+    "setor": "Veiculos e peças",
+    "cvm_code": "11991",
+    "cnpj": "84.683.671/0001-94"
+  },
+  "MWET4": {
+    "ticker": "MWET4",
+    "nome": "Wetzel S/A",
+    "setor": "Veiculos e peças",
+    "cvm_code": "11991",
+    "cnpj": "84.683.671/0001-94"
+  },
+  "WHRL3": {
+    "ticker": "WHRL3",
+    "nome": "Whirlpool",
+    "setor": "Eletroeletrônicos",
+    "cvm_code": "14346",
+    "cnpj": "59.105.999/0001-86"
+  },
+  "WHRL4": {
+    "ticker": "WHRL4",
+    "nome": "Whirlpool",
+    "setor": "Eletroeletrônicos",
+    "cvm_code": "14346",
+    "cnpj": "59.105.999/0001-86"
+  },
+  "PORT3": {
+    "ticker": "PORT3",
+    "nome": "Wilson Sons",
+    "setor": "Transporte Serviç",
+    "cvm_code": "26247",
+    "cnpj": "33.130.691/0001-05"
+  },
+  "WIZS3": {
+    "ticker": "WIZS3",
+    "nome": "Wiz S.A.",
+    "setor": "Finanças e Seguros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "WLMM3": {
+    "ticker": "WLMM3",
+    "nome": "Wlm Ind Com",
+    "setor": "Comércio",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "WLMM4": {
+    "ticker": "WLMM4",
+    "nome": "Wlm Ind Com",
+    "setor": "Comércio",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "YBRA3B": {
+    "ticker": "YBRA3B",
+    "nome": "Ybyra S/A",
+    "setor": "Outros",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "YDUQ3": {
+    "ticker": "YDUQ3",
+    "nome": "Yduqs Part",
+    "setor": "Outros",
+    "cvm_code": "21016",
+    "cnpj": "08.807.432/0001-10"
+  },
+  "ADHM3": {
+    "ticker": "ADHM3",
+    "nome": "ADHM3",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "ALOS3": {
+    "ticker": "ALOS3",
+    "nome": "ALOS3",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "AMOB3": {
+    "ticker": "AMOB3",
+    "nome": "AMOB3",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "ARND3": {
+    "ticker": "ARND3",
+    "nome": "ARND3",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "AUAU3": {
+    "ticker": "AUAU3",
+    "nome": "AUAU3",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "AURE3": {
+    "ticker": "AURE3",
+    "nome": "AURE3",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "AXIA3": {
+    "ticker": "AXIA3",
+    "nome": "AXIA3",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "AXIA5": {
+    "ticker": "AXIA5",
+    "nome": "AXIA5",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "AXIA6": {
+    "ticker": "AXIA6",
+    "nome": "AXIA6",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "AXIA7": {
+    "ticker": "AXIA7",
+    "nome": "AXIA7",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "AZTE3": {
+    "ticker": "AZTE3",
+    "nome": "AZTE3",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "AZUL53": {
+    "ticker": "AZUL53",
+    "nome": "AZUL53",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "AZUL54": {
+    "ticker": "AZUL54",
+    "nome": "AZUL54",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "AZZA3": {
+    "ticker": "AZZA3",
+    "nome": "AZZA3",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "BFRE11": {
+    "ticker": "BFRE11",
+    "nome": "BFRE11",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "BFRE12": {
+    "ticker": "BFRE12",
+    "nome": "BFRE12",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "BHIA3": {
+    "ticker": "BHIA3",
+    "nome": "BHIA3",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "BPAT33": {
+    "ticker": "BPAT33",
+    "nome": "BPAT33",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "BPHA3": {
+    "ticker": "BPHA3",
+    "nome": "BPHA3",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "BRAV3": {
+    "ticker": "BRAV3",
+    "nome": "BRAV3",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "BRBI3": {
+    "ticker": "BRBI3",
+    "nome": "BRBI3",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "BRBI4": {
+    "ticker": "BRBI4",
+    "nome": "BRBI4",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "BRST3": {
+    "ticker": "BRST3",
+    "nome": "BRST3",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "BSEV3": {
+    "ticker": "BSEV3",
+    "nome": "BSEV3",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "BTTL4": {
+    "ticker": "BTTL4",
+    "nome": "BTTL4",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "CAMB4": {
+    "ticker": "CAMB4",
+    "nome": "CAMB4",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "CCXC3": {
+    "ticker": "CCXC3",
+    "nome": "CCXC3",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "CPRE3": {
+    "ticker": "CPRE3",
+    "nome": "CPRE3",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "CREM3": {
+    "ticker": "CREM3",
+    "nome": "CREM3",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "CSUD3": {
+    "ticker": "CSUD3",
+    "nome": "CSUD3",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "CTAX3": {
+    "ticker": "CTAX3",
+    "nome": "CTAX3",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "CTSA8": {
+    "ticker": "CTSA8",
+    "nome": "CTSA8",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "CYRE4": {
+    "ticker": "CYRE4",
+    "nome": "CYRE4",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "ELEK3": {
+    "ticker": "ELEK3",
+    "nome": "ELEK3",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "ELEK4": {
+    "ticker": "ELEK4",
+    "nome": "ELEK4",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "ELPL3": {
+    "ticker": "ELPL3",
+    "nome": "ELPL3",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "EMBJ3": {
+    "ticker": "EMBJ3",
+    "nome": "EMBJ3",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "ENMA3B": {
+    "ticker": "ENMA3B",
+    "nome": "ENMA3B",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "ENMA6B": {
+    "ticker": "ENMA6B",
+    "nome": "ENMA6B",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "FBMC3": {
+    "ticker": "FBMC3",
+    "nome": "FBMC3",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "FBMC4": {
+    "ticker": "FBMC4",
+    "nome": "FBMC4",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "FICT3": {
+    "ticker": "FICT3",
+    "nome": "FICT3",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "FIEI3": {
+    "ticker": "FIEI3",
+    "nome": "FIEI3",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "FTRT3B": {
+    "ticker": "FTRT3B",
+    "nome": "FTRT3B",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "GBIO33": {
+    "ticker": "GBIO33",
+    "nome": "GBIO33",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "GOLL54": {
+    "ticker": "GOLL54",
+    "nome": "GOLL54",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "HGTX3": {
+    "ticker": "HGTX3",
+    "nome": "HGTX3",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "IDVL3": {
+    "ticker": "IDVL3",
+    "nome": "IDVL3",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "IDVL4": {
+    "ticker": "IDVL4",
+    "nome": "IDVL4",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "IGTI11": {
+    "ticker": "IGTI11",
+    "nome": "IGTI11",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "IGTI3": {
+    "ticker": "IGTI3",
+    "nome": "IGTI3",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "IGTI4": {
+    "ticker": "IGTI4",
+    "nome": "IGTI4",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "ISAE3": {
+    "ticker": "ISAE3",
+    "nome": "ISAE3",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "ISAE4": {
+    "ticker": "ISAE4",
+    "nome": "ISAE4",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "ITEC3": {
+    "ticker": "ITEC3",
+    "nome": "ITEC3",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "JFEN3": {
+    "ticker": "JFEN3",
+    "nome": "JFEN3",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "LHER3": {
+    "ticker": "LHER3",
+    "nome": "LHER3",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "LHER4": {
+    "ticker": "LHER4",
+    "nome": "LHER4",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "LINX3": {
+    "ticker": "LINX3",
+    "nome": "LINX3",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "MBRF3": {
+    "ticker": "MBRF3",
+    "nome": "MBRF3",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "MOTV3": {
+    "ticker": "MOTV3",
+    "nome": "MOTV3",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "NAFG3": {
+    "ticker": "NAFG3",
+    "nome": "NAFG3",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "NAFG4": {
+    "ticker": "NAFG4",
+    "nome": "NAFG4",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "NATU3": {
+    "ticker": "NATU3",
+    "nome": "NATU3",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "NEMO4": {
+    "ticker": "NEMO4",
+    "nome": "NEMO4",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "NEXP3": {
+    "ticker": "NEXP3",
+    "nome": "NEXP3",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "OBTC3": {
+    "ticker": "OBTC3",
+    "nome": "OBTC3",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "OGXP3": {
+    "ticker": "OGXP3",
+    "nome": "OGXP3",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "PCAR4": {
+    "ticker": "PCAR4",
+    "nome": "PCAR4",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "PINE14": {
+    "ticker": "PINE14",
+    "nome": "PINE14",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "PNVL4": {
+    "ticker": "PNVL4",
+    "nome": "PNVL4",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "PPAR4": {
+    "ticker": "PPAR4",
+    "nome": "PPAR4",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "RANI4": {
+    "ticker": "RANI4",
+    "nome": "RANI4",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "RENT4": {
+    "ticker": "RENT4",
+    "nome": "RENT4",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "RIAA3": {
+    "ticker": "RIAA3",
+    "nome": "RIAA3",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "RLOG3": {
+    "ticker": "RLOG3",
+    "nome": "RLOG3",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "SAUD3": {
+    "ticker": "SAUD3",
+    "nome": "SAUD3",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "SEDU3": {
+    "ticker": "SEDU3",
+    "nome": "SEDU3",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "SMLS3": {
+    "ticker": "SMLS3",
+    "nome": "SMLS3",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "SPRT3B": {
+    "ticker": "SPRT3B",
+    "nome": "SPRT3B",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "SRNA3": {
+    "ticker": "SRNA3",
+    "nome": "SRNA3",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "TESA3": {
+    "ticker": "TESA3",
+    "nome": "TESA3",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "TIET11": {
+    "ticker": "TIET11",
+    "nome": "TIET11",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "TIET3": {
+    "ticker": "TIET3",
+    "nome": "TIET3",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "TIET4": {
+    "ticker": "TIET4",
+    "nome": "TIET4",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "TOKY3": {
+    "ticker": "TOKY3",
+    "nome": "TOKY3",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "TOYB3": {
+    "ticker": "TOYB3",
+    "nome": "TOYB3",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "TOYB4": {
+    "ticker": "TOYB4",
+    "nome": "TOYB4",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "VIVT4": {
+    "ticker": "VIVT4",
+    "nome": "VIVT4",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "VSPT3": {
+    "ticker": "VSPT3",
+    "nome": "VSPT3",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "VSPT4": {
+    "ticker": "VSPT4",
+    "nome": "VSPT4",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "VSTE3": {
+    "ticker": "VSTE3",
+    "nome": "VSTE3",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "VTRU3": {
+    "ticker": "VTRU3",
+    "nome": "VTRU3",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "WDCN3": {
+    "ticker": "WDCN3",
+    "nome": "WDCN3",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "WIZC3": {
+    "ticker": "WIZC3",
+    "nome": "WIZC3",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  },
+  "ZAMP3": {
+    "ticker": "ZAMP3",
+    "nome": "ZAMP3",
+    "setor": "Geral B3",
+    "cvm_code": "",
+    "cnpj": ""
+  }
+}

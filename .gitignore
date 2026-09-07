@@ -1,0 +1,35 @@
+# Ambientes virtuais
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache & compilação
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# Credenciais e variáveis locais
+.env
+*.env
+
+# Bancos de dados locais SQLite
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+
+# Dados brutos temporários
+dados_cvm/
+*.csv
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
