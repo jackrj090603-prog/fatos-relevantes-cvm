@@ -1,4 +1,16 @@
-# [ 🐂 ] CF TECH · FATOS RELEVANTES DIRETO DA CVM
+<p align="center">
+  <img src="LOGO_CF_TECH.png" alt="CF Tech - Ceará Finance" width="540">
+</p>
+
+<h2 align="center">FATOS RELEVANTES DIRETO DA CVM</h2>
+
+<p align="center">
+  <a href="https://www.instagram.com/cearafinance/"><img src="https://img.shields.io/badge/Instagram-@cearafinance-E4405F?logo=instagram&logoColor=white" alt="Instagram"></a>
+  <a href="https://www.linkedin.com/company/ceara-finance/posts/?feedView=all"><img src="https://img.shields.io/badge/LinkedIn-Cear%C3%A1%20Finance-0A66C2?logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <img src="https://img.shields.io/badge/Python-3.10+-3776AB?logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/AI-Gemini%203.1-8C79C0?logo=google&logoColor=white" alt="Gemini">
+  <img src="https://img.shields.io/badge/WhatsApp-Notifica%C3%A7%C3%B5es-25D366?logo=whatsapp&logoColor=white" alt="WhatsApp">
+</p>
 
 > **Portal regulatório em tempo real da Ceará Finance com pareceres executivos sintetizados por IA (Google Gemini 3.1 Flash Lite) e sistema de alertas via WhatsApp por ticker.**
 
