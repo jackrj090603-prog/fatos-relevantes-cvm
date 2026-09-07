@@ -4,27 +4,25 @@ venv/
 env/
 ENV/
 
-# Python cache & compilação
+# Python cache
 __pycache__/
 *.py[cod]
-*$py.class
+*.class
 *.so
 .pytest_cache/
 
-# Credenciais e variáveis locais
+# Credenciais e variaveis locais
 .env
 *.env
 
-# Bancos de dados locais SQLite
-*.db
+# Bancos de dados temporarios
 *.db-journal
-*.sqlite
-*.sqlite3
+*.sqlite3-journal
 
 # Logs
 *.log
 
-# Dados brutos temporários
+# Dados brutos temporarios
 dados_cvm/
 *.csv
 
@@ -32,4 +30,3 @@ dados_cvm/
 .DS_Store
 Thumbs.db
 desktop.ini
-

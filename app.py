@@ -57,6 +57,15 @@ class CVMHandler(SimpleHTTPRequestHandler):
             docs = storage.buscar_documentos_por_termo(q, mes=mes, limit=160)
             self.wfile.write(json.dumps(docs).encode("utf-8"))
 
+        elif parsed.path == "/api/sincronizar":
+            self.send_response(200)
+            self.send_header("Content-Type", "application/json; charset=utf-8")
+            self.end_headers()
+            import threading
+            import sincronizar_cvm
+            threading.Thread(target=sincronizar_cvm.sincronizar_base_cvm, daemon=True).start()
+            self.wfile.write(b'{"status": "ok", "message": "Sincronizacao CVM iniciada"}')
+
         elif parsed.path == "/api/whatsapp/listar":
             self.send_response(200)
             self.send_header("Content-Type", "application/json; charset=utf-8")
@@ -1895,6 +1904,19 @@ class CVMHandler(SimpleHTTPRequestHandler):
             }
         }
 
+        async function sincronizarBaseCVM() {
+            const listEl = document.getElementById('docs-list');
+            listEl.innerHTML = '<div class="empty-state"><i class="fas fa-spinner fa-spin" style="font-size: 32px; margin-bottom: 12px; display:block; color:var(--c-roxo-fume);"></i>Conectando aos Dados Abertos da CVM e indexando comunicados... Aguarde alguns instantes.</div>';
+            try {
+                await fetch('/api/sincronizar');
+                setTimeout(() => { carregarDocs(); carregarMetricas(); }, 4000);
+                setTimeout(() => { carregarDocs(); carregarMetricas(); }, 10000);
+                setTimeout(() => { carregarDocs(); carregarMetricas(); }, 18000);
+            } catch(e) {
+                carregarDocs();
+            }
+        }
+
         function renderizarDocs() {
             const listEl = document.getElementById('docs-list');
             const countEl = document.getElementById('visible-count');
@@ -1903,7 +1925,17 @@ class CVMHandler(SimpleHTTPRequestHandler):
             countEl.innerText = `${docs.length} fatos/documentos`;
 
             if (docs.length === 0) {
-                listEl.innerHTML = '<div class="empty-state"><i class="fas fa-folder-open" style="font-size: 32px; margin-bottom: 10px; display:block; opacity:0.4;"></i>Nenhum documento encontrado na base para este critério ou período.</div>';
+                listEl.innerHTML = `
+                    <div class="empty-state">
+                        <i class="fas fa-folder-open" style="font-size: 32px; margin-bottom: 10px; display:block; opacity:0.4;"></i>
+                        Nenhum documento encontrado na base para este critério ou período.
+                        <div style="margin-top: 14px;">
+                            <button onclick="sincronizarBaseCVM()" class="btn-gen-ai" style="padding: 7px 16px; font-size: 11px;">
+                                <i class="fas fa-rotate"></i> Puxar Dados Oficiais da CVM Agora
+                            </button>
+                        </div>
+                    </div>
+                `;
                 return;
             }
 
@@ -2118,6 +2150,27 @@ class CVMHandler(SimpleHTTPRequestHandler):
 
 def iniciar_servidor(port=PORT):
     storage.init_db()
+    
+    def auto_sync_se_necessario():
+        import time
+        time.sleep(2)
+        try:
+            conn = storage.get_connection()
+            c = conn.cursor()
+            total = c.execute("SELECT count(*) FROM cvm_base_oficial").fetchone()[0]
+            conn.close()
+            if total == 0:
+                print("[CVM Server] Base oficial CVM vazia. Iniciando download dos dados abertos CVM em segundo plano...")
+                import sincronizar_cvm
+                sincronizar_cvm.sincronizar_base_cvm()
+            else:
+                print(f"[CVM Server] Base CVM carregada com {total} documentos.")
+        except Exception as e:
+            print(f"[CVM Server] Verificacao da base: {e}")
+            
+    import threading
+    threading.Thread(target=auto_sync_se_necessario, daemon=True).start()
+
     server_address = ("", port)
     httpd = ThreadingHTTPServer(server_address, CVMHandler)
     print(f"[CVM Server] Alertas CVM ativos em http://localhost:{port}")
