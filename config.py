@@ -14,7 +14,7 @@ UNIVERSO_JSON = os.path.join(BASE_DIR, "empresas_universo.json")
 # Variáveis do Telegram e Gemini
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "")
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")
-TELEGRAM_CHAT_ID_ALERTAS = os.getenv("TELEGRAM_CHAT_ID_ALERTAS", "")
+TELEGRAM_CHAT_ID_ALERTAS = os.getenv("TELEGRAM_CHAT_ID_ALERTAS", "-1003974993022")
 TELEGRAM_CHAT_ID_CONVERSA = os.getenv("TELEGRAM_CHAT_ID_CONVERSA", "")
 
 # Configurações de Notificação WhatsApp

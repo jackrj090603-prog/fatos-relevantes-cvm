@@ -2490,7 +2490,37 @@ def iniciar_servidor(port=PORT):
             print(f"[CVM Server] Verificacao da base: {e}")
             
     import threading
-    threading.Thread(target=auto_sync_se_necessario, daemon=True).start()
+    threading.Thread(target=auto_sync_se_necessario, daemon=True, name="CVMAutoSync").start()
+
+    # Thread 24/7: Bot Interativo do Telegram (@CEARA_FINANCE_BOT)
+    def telegram_chat_loop():
+        import time
+        import chat
+        print("[Telegram Bot] Thread do Chat Interativo iniciada 24/7 (@CEARA_FINANCE_BOT).")
+        time.sleep(3)
+        while True:
+            try:
+                chat.responder_updates()
+            except Exception as e:
+                print(f"[Telegram Bot] Erro na leitura de updates: {e}")
+            time.sleep(2)
+
+    threading.Thread(target=telegram_chat_loop, daemon=True, name="TelegramChatWorker").start()
+
+    # Thread 24/7: Monitoramento Contínuo da CVM e Alertas com IA
+    def cvm_monitor_loop():
+        import time
+        import monitor
+        print("[Monitor CVM] Thread de Monitoramento Contínuo CVM iniciada 24/7.")
+        time.sleep(15)
+        while True:
+            try:
+                monitor.executar_monitoramento()
+            except Exception as e:
+                print(f"[Monitor CVM] Erro no ciclo de monitoramento: {e}")
+            time.sleep(config.MONITOR_INTERVAL)
+
+    threading.Thread(target=cvm_monitor_loop, daemon=True, name="CVMMonitorWorker").start()
 
     server_address = ("", port)
     httpd = ThreadingHTTPServer(server_address, CVMHandler)

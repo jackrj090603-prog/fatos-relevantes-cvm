@@ -3,6 +3,7 @@ import urllib.request
 import re
 from google import genai
 from google.genai import types
+from google.genai.errors import APIError
 try:
     from config import GEMINI_API_KEY
 except ImportError:
@@ -169,11 +170,10 @@ Responda em formato HTML seguro (use apenas as tags permitidas: <b>, <i>, <code>
     def call_chat():
         config = types.GenerateContentConfig(
             system_instruction="Você é o chat bot oficial da Ceará Finance para investidores de ações da B3.",
-            tools=[{"google_search": {}}],
             temperature=0.4
         )
         response = client.models.generate_content(
-            model="gemini-2.0-flash",
+            model="gemini-3.1-flash-lite",
             contents=prompt,
             config=config
         )
@@ -216,7 +216,7 @@ Escreva a resposta formatada em parágrafos de texto corrido em português, de f
             temperature=0.3
         )
         response = client.models.generate_content(
-            model="gemini-2.0-flash",
+            model="gemini-3.1-flash-lite",
             contents=prompt,
             config=config
         )
