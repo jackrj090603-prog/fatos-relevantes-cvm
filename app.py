@@ -46,6 +46,13 @@ class CVMHandler(SimpleHTTPRequestHandler):
             self.end_headers()
             metricas = storage.get_metricas_completas()
             self.wfile.write(json.dumps(metricas).encode("utf-8"))
+
+        elif parsed.path == "/api/meses":
+            self.send_response(200)
+            self.send_header("Content-Type", "application/json; charset=utf-8")
+            self.end_headers()
+            meses = storage.get_meses_disponiveis()
+            self.wfile.write(json.dumps(meses).encode("utf-8"))
             
         elif parsed.path == "/api/documentos":
             self.send_response(200)
@@ -1442,9 +1449,10 @@ class CVMHandler(SimpleHTTPRequestHandler):
             </div>
 
             <!-- Barra de Seleção de Meses do Ano (Todos os Meses de 2026) -->
-            <div class="month-selector-bar">
+            <div class="month-selector-bar" id="month-bar">
                 <span class="month-label"><i class="far fa-calendar-check"></i> MESES 2026:</span>
-                <button class="month-pill active" onclick="selecionarMes('', this)">Ano Todo (Jan a Set)</button>
+                <button class="month-pill active" onclick="selecionarMes('', this)">Ano Todo (Jan a Out)</button>
+                <button class="month-pill" onclick="selecionarMes('2026-10', this)">Out/26</button>
                 <button class="month-pill" onclick="selecionarMes('2026-09', this)">Set/26</button>
                 <button class="month-pill" onclick="selecionarMes('2026-08', this)">Ago/26</button>
                 <button class="month-pill" onclick="selecionarMes('2026-07', this)">Jul/26</button>
@@ -1692,6 +1700,38 @@ class CVMHandler(SimpleHTTPRequestHandler):
             } catch (err) {
                 listEl.innerHTML = `<div class="empty-state" style="color: #ff6b6b;">Erro ao carregar documentos: ${err.message}</div>`;
             }
+        }
+
+        const NOMES_MESES = {
+            '01': 'Jan', '02': 'Fev', '03': 'Mar', '04': 'Abr',
+            '05': 'Mai', '06': 'Jun', '07': 'Jul', '08': 'Ago',
+            '09': 'Set', '10': 'Out', '11': 'Nov', '12': 'Dez'
+        };
+
+        async function carregarBarraMeses() {
+            try {
+                const res = await fetch('/api/meses');
+                const meses = await res.json();
+                if (!meses || meses.length === 0) return;
+                
+                const barEl = document.getElementById('month-bar');
+                if (!barEl) return;
+                
+                const ultimoMesNum = meses[0].split('-')[1];
+                const nomeUltimoMes = NOMES_MESES[ultimoMesNum] || ultimoMesNum;
+                
+                let html = `<span class="month-label"><i class="far fa-calendar-check"></i> MESES 2026:</span>`;
+                html += `<button class="month-pill ${!mesAtivo ? 'active' : ''}" onclick="selecionarMes('', this)">Ano Todo (Jan a ${nomeUltimoMes})</button>`;
+                
+                meses.forEach(m => {
+                    const partes = m.split('-');
+                    const anoCurto = partes[0].slice(-2);
+                    const label = `${NOMES_MESES[partes[1]] || partes[1]}/${anoCurto}`;
+                    html += `<button class="month-pill ${mesAtivo === m ? 'active' : ''}" onclick="selecionarMes('${m}', this)">${label}</button>`;
+                });
+                
+                barEl.innerHTML = html;
+            } catch(e) {}
         }
 
         function selecionarMes(mes, btn) {
@@ -2140,6 +2180,7 @@ class CVMHandler(SimpleHTTPRequestHandler):
         window.addEventListener('DOMContentLoaded', () => {
             carregarCatalogoEmpresas();
             carregarMetricas();
+            carregarBarraMeses();
             carregarDocs();
         });
     </script>

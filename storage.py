@@ -502,4 +502,20 @@ def obter_inscritos_whatsapp_por_ticker(ticker):
     conn.close()
     return [{"telefone": r["telefone"], "apenas_fr": r["apenas_fr"], "nome": r["nome"]} for r in rows]
 
+def get_meses_disponiveis():
+    """Retorna a lista de meses únicos presentes na base oficial da CVM."""
+    conn = get_connection()
+    cursor = conn.cursor()
+    try:
+        cursor.execute("SELECT DISTINCT substr(delivery_date, 1, 7) as mes FROM cvm_base_oficial ORDER BY mes DESC")
+        meses = [r[0] for r in cursor.fetchall() if r[0] and len(r[0]) == 7 and r[0].startswith("2026-")]
+    except Exception:
+        meses = []
+    finally:
+        conn.close()
+        
+    if not meses:
+        meses = ["2026-10", "2026-09", "2026-08", "2026-07", "2026-06", "2026-05", "2026-04", "2026-03", "2026-02", "2026-01"]
+    return meses
+
 
