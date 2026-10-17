@@ -35,13 +35,20 @@ def request_telegram_with_retry(method, url, **kwargs):
                 raise e
     return None
 
+def normalizar_chat_id(chat_id):
+    """Garante que IDs de supergrupos/canais do Telegram comecem com -100."""
+    cid = str(chat_id).strip()
+    if cid.startswith("-") and not cid.startswith("-100") and len(cid) >= 10:
+        return f"-100{cid[1:]}"
+    return cid
+
 def send_chat_action(chat_id, action="typing"):
     """Exibe o status de 'digitando' (typing) ou outra ação no chat do Telegram."""
     if not TELEGRAM_BOT_TOKEN or not chat_id:
         return
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendChatAction"
     payload = {
-        "chat_id": str(chat_id),
+        "chat_id": normalizar_chat_id(chat_id),
         "action": action
     }
     try:
@@ -59,7 +66,7 @@ def send_message(chat_id, text, parse_mode="HTML"):
         
     url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/sendMessage"
     payload = {
-        "chat_id": str(chat_id),
+        "chat_id": normalizar_chat_id(chat_id),
         "text": text,
         "parse_mode": parse_mode,
         "disable_web_page_preview": False
