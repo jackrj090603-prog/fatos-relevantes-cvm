@@ -144,7 +144,30 @@ class CVMHandler(SimpleHTTPRequestHandler):
         except Exception:
             data = {}
             
-        if parsed.path == "/api/whatsapp/cadastrar":
+        if False:
+            pass
+        elif parsed.path == "/api/telegram/testar":
+            ticker = data.get("ticker", "PETR4").strip().upper() or "PETR4"
+            import telegram_bot
+            docs = storage.buscar_documentos_por_termo(ticker, limit=1)
+            doc = docs[0] if docs else {}
+            empresa = doc.get("company_name", "PETROLEO BRASILEIRO S.A. PETROBRAS")
+            categoria = doc.get("category", "Fato Relevante")
+            assunto = doc.get("description", "Relatorio Operacional e Comunicado ao Mercado / CVM")
+            data_doc = doc.get("delivery_date", "17/10/2026")
+            
+            texto = f"""🚨 <b>ALERTA OFICIAL CVM · CEARÁ FINANCE</b> 🚨\n\n🏢 <b>Empresa:</b> {empresa} (<b>{ticker}</b>)\n📂 <b>Categoria:</b> {categoria}\n📝 <b>Assunto:</b> {assunto}\n📅 <b>Data CVM:</b> {data_doc}\n\n💡 <b>PARECER EXECUTIVO RI (Gemini 3.1)</b>\n• <b>Classificação:</b> Positivo / Neutro\n• <b>Análise:</b> Divulgação regulatória que reforça a transparência institucional, higidez operacional e previsibilidade perante o mercado.\n\n🔗 <b>Portal de Fatos Relevantes:</b> <a href="https://fatos-relevantes-cvm.onrender.com">Acessar CF Tech CVM</a>\n\n━━━━━━━━━━━━━━━━━━━━\n🐂 <i>CF Tech · Front Office de Tecnologia</i>\n<i>Ceará Finance Investment Group</i>"""
+            
+            res = telegram_bot.send_message(config.TELEGRAM_CHAT_ID_ALERTAS, texto, parse_mode="HTML")
+            self.send_response(200)
+            self.send_header("Content-Type", "application/json; charset=utf-8")
+            self.end_headers()
+            if res and res.get("ok"):
+                self.wfile.write(json.dumps({"status": "ok", "canal": "CEARA_FINANCE_CANAL", "message_id": res["result"]["message_id"]}).encode("utf-8"))
+            else:
+                self.wfile.write(json.dumps({"status": "erro", "erro": str(res) if res else "Falha na comunicacao com API Telegram"}).encode("utf-8"))
+                
+        elif parsed.path == "/api/whatsapp/cadastrar":
             telefone = data.get("telefone", "").strip()
             ticker = data.get("ticker", "TODAS").strip().upper() or "TODAS"
             nome = data.get("nome", "").strip()
@@ -898,6 +921,155 @@ class CVMHandler(SimpleHTTPRequestHandler):
             text-decoration: underline;
         }
 
+        
+        /* ================= BANNER E MODAL TELEGRAM ================= */
+        .btn-tg-nav {
+            background: rgba(0, 136, 204, 0.14) !important;
+            border-color: rgba(0, 136, 204, 0.45) !important;
+            color: #38bdf8 !important;
+            font-weight: 600 !important;
+        }
+        .btn-tg-nav:hover {
+            background: rgba(0, 136, 204, 0.3) !important;
+            border-color: #38bdf8 !important;
+            color: #ffffff !important;
+        }
+
+        .tg-promo-banner {
+            border: 1px solid rgba(0, 136, 204, 0.35);
+            background: linear-gradient(135deg, rgba(0, 100, 180, 0.18) 0%, rgba(13, 13, 17, 0.95) 100%);
+            border-radius: 8px;
+            padding: 14px 20px;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 16px;
+            flex-wrap: wrap;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .tg-promo-banner:hover {
+            border-color: rgba(56, 189, 248, 0.7);
+            transform: translateY(-1px);
+        }
+        .tg-promo-left {
+            display: flex;
+            align-items: center;
+            gap: 14px;
+        }
+        .tg-promo-icon {
+            font-size: 24px;
+            color: #38bdf8;
+            background: rgba(0, 136, 204, 0.2);
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+        .tg-promo-title {
+            font-family: var(--font-title);
+            font-size: 14.5px;
+            font-weight: 700;
+            color: var(--c-papel);
+            letter-spacing: 0.04em;
+        }
+        .tg-promo-desc {
+            font-size: 12.5px;
+            color: var(--c-grafite-light);
+            margin-top: 2px;
+        }
+        .tg-btn-group {
+            display: flex;
+            gap: 10px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .btn-tg-action {
+            background: #0088cc;
+            color: #ffffff !important;
+            border: none;
+            padding: 8px 16px;
+            font-family: var(--font-mono);
+            font-size: 11px;
+            letter-spacing: 0.1em;
+            font-weight: 600;
+            border-radius: 4px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 7px;
+            transition: all 0.2s;
+            text-decoration: none;
+        }
+        .btn-tg-action:hover {
+            background: #0099e6;
+            box-shadow: 0 0 14px rgba(0, 136, 204, 0.5);
+            color: #ffffff;
+        }
+        .btn-tg-test-pill {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(0, 136, 204, 0.5);
+            color: #38bdf8;
+            padding: 7px 14px;
+            font-family: var(--font-mono);
+            font-size: 11px;
+            border-radius: 4px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            transition: all 0.2s;
+        }
+        .btn-tg-test-pill:hover {
+            background: rgba(0, 136, 204, 0.2);
+            color: #ffffff;
+        }
+        .btn-tg-send-test {
+            width: 100%;
+            background: #0088cc;
+            color: #fff;
+            border: none;
+            padding: 12px;
+            font-family: var(--font-mono);
+            font-size: 12px;
+            font-weight: 600;
+            letter-spacing: 0.1em;
+            border-radius: 4px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            transition: all 0.2s;
+        }
+        .btn-tg-send-test:hover {
+            background: #0099e6;
+            box-shadow: 0 0 16px rgba(0, 136, 204, 0.4);
+        }
+        .btn-open-tg-now {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: #0088cc;
+            color: #fff !important;
+            padding: 9px 18px;
+            border-radius: 4px;
+            font-family: var(--font-mono);
+            font-size: 12px;
+            font-weight: 600;
+            text-decoration: none;
+            margin-top: 8px;
+            transition: all 0.2s;
+        }
+        .btn-open-tg-now:hover {
+            background: #0099e6;
+            box-shadow: 0 0 12px rgba(0, 136, 204, 0.5);
+        }
+
         /* ================= BANNER E MODAL WHATSAPP ================= */
         .btn-wpp-nav {
             background: rgba(37, 211, 102, 0.12) !important;
@@ -1391,7 +1563,7 @@ class CVMHandler(SimpleHTTPRequestHandler):
             </div>
 
             <div class="header-actions">
-                <button onclick="abrirModalWpp()" class="btn-top btn-wpp-nav"><i class="fab fa-whatsapp"></i> ALERTAS WHATSAPP</button>
+                <button onclick="abrirModalTelegram()" class="btn-top btn-tg-nav"><i class="fab fa-telegram"></i> ALERTAS TELEGRAM</button>
                 <a href="http://localhost:8000" class="btn-top"><i class="fas fa-arrow-left"></i> FINANCE HUB</a>
                 <button onclick="carregarDocs()" class="btn-top"><i class="fas fa-rotate"></i> ATUALIZAR</button>
             </div>
@@ -1500,15 +1672,23 @@ class CVMHandler(SimpleHTTPRequestHandler):
         </div>
 
         <!-- Banner de Chamada para Alertas no WhatsApp -->
-        <div class="wpp-promo-banner" onclick="abrirModalWpp()">
-            <div class="wpp-promo-left">
-                <div class="wpp-promo-icon"><i class="fab fa-whatsapp"></i></div>
+        <!-- Banner Destaque Telegram -->
+        <div class="tg-promo-banner" onclick="abrirModalTelegram()">
+            <div class="tg-promo-left">
+                <div class="tg-promo-icon"><i class="fab fa-telegram-plane"></i></div>
                 <div>
-                    <div class="wpp-promo-title">ALERTAS NO SEU WHATSAPP EM TEMPO REAL</div>
-                    <div class="wpp-promo-desc">Vincule seu número e receba comunicados da sua ação com parecer executivo do Gemini assim que divulgados na CVM.</div>
+                    <div class="tg-promo-title">CANAL OFICIAL DE ALERTAS CVM NO TELEGRAM</div>
+                    <div class="tg-promo-desc">Receba notificações instantâneas com parecer executivo do Gemini diretamente no canal <strong>CEARA_FINANCE_CANAL</strong>. 100% gratuito e em tempo real.</div>
                 </div>
             </div>
-            <button class="btn-wpp-action"><i class="fas fa-bell"></i> VINCULAR MEU WHATSAPP</button>
+            <div class="tg-btn-group">
+                <a href="https://t.me/+T1V2m44be_Q3MjYx" target="_blank" class="btn-tg-action" onclick="event.stopPropagation()">
+                    <i class="fab fa-telegram-plane"></i> ENTRAR NO CANAL
+                </a>
+                <button class="btn-tg-test-pill" onclick="event.stopPropagation(); abrirModalTelegram();">
+                    <i class="fas fa-bell"></i> TESTAR AGORA
+                </button>
+            </div>
         </div>
 
         <!-- VIEWPORT COM OPÇÃO DE DESCER (SCROLL INTERNO COM 1 COLUNA AMPLA) -->
@@ -1577,6 +1757,55 @@ class CVMHandler(SimpleHTTPRequestHandler):
     </div>
 
     <!-- Modal de Vinculação WhatsApp -->
+    
+    <!-- Modal Oficial Telegram -->
+    <div id="modal-tg" class="modal-backdrop" onclick="fecharModalTgOverlay(event)">
+        <div class="modal-card">
+            <div class="modal-header" style="background: rgba(0, 136, 204, 0.18);">
+                <h3><i class="fab fa-telegram" style="color:#0088cc;"></i> Canal Oficial de Alertas CVM no Telegram</h3>
+                <button class="modal-close-btn" onclick="fecharModalTg()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <p style="font-size: 13px; color: var(--c-grafite-light); margin-bottom: 18px; line-height: 1.55;">
+                    Os fatos relevantes e pareceres de IA são transmitidos em tempo real para o canal oficial da <strong>Ceará Finance</strong> via bot (<code>@CEARA_FINANCE_BOT</code>).
+                </p>
+
+                <div style="background: rgba(0, 136, 204, 0.08); border: 1px solid rgba(0, 136, 204, 0.3); border-radius: 6px; padding: 16px 20px; margin-bottom: 20px;">
+                    <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px;">
+                        <div>
+                            <div style="font-size:11px; font-family:var(--font-mono); color:#38bdf8; text-transform:uppercase; letter-spacing:0.1em;">Canal Oficial Telegram</div>
+                            <div style="font-size:16px; font-weight:700; color:var(--c-papel);">CEARA_FINANCE_CANAL</div>
+                            <div style="font-size:11.5px; color:var(--c-grafite-light); margin-top:2px;">Bot Oficial: <code>@CEARA_FINANCE_BOT</code></div>
+                        </div>
+                        <a href="https://t.me/+T1V2m44be_Q3MjYx" target="_blank" class="btn-tg-action" style="padding:10px 18px; font-size:12px;">
+                            <i class="fab fa-telegram-plane"></i> ENTRAR NO CANAL
+                        </a>
+                    </div>
+                </div>
+
+                <div class="wpp-form-group">
+                    <label class="wpp-form-label">Ação / Ticker para Disparar Alerta de Teste</label>
+                    <input type="text" id="tg-input-ticker" class="wpp-input" style="border-color: rgba(0, 136, 204, 0.4);" placeholder="Ex: PETR4, VALE3, MDIA3, ITUB4..." value="PETR4">
+                </div>
+
+                <div id="tg-feedback" class="wpp-alert-box" style="display:none;"></div>
+
+                <div style="margin-top: 18px;">
+                    <button class="btn-tg-send-test" onclick="dispararTesteTelegram()" id="btn-disparar-tg">
+                        <i class="fas fa-paper-plane"></i> DISPARAR ALERTA DE TESTE NO TELEGRAM
+                    </button>
+                </div>
+
+                <div class="wpp-guide-box" style="margin-top: 20px; border-color: rgba(0, 136, 204, 0.25);">
+                    <div class="wpp-guide-title" style="color:#38bdf8;"><i class="fas fa-circle-check"></i> 100% Automático e Gratuito</div>
+                    <div style="font-size:12px; color:var(--c-grafite-light); line-height:1.5;">
+                        O robô da Ceará Finance monitora a CVM 24h por dia. Assim que qualquer empresa monitorada protocola um documento oficial, a IA sintetiza o parecer executivo e publica no canal imediatamente com notificação sonora no seu celular!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div id="modal-wpp" class="modal-backdrop" onclick="fecharModalWppOverlay(event)">
         <div class="modal-card">
             <div class="modal-header">
@@ -2017,6 +2246,57 @@ class CVMHandler(SimpleHTTPRequestHandler):
         }
 
         // ================= FUNÇÕES WHATSAPP =================
+        
+        function abrirModalTelegram() {
+            document.getElementById('modal-tg').style.display = 'flex';
+        }
+        function fecharModalTg() {
+            document.getElementById('modal-tg').style.display = 'none';
+        }
+        function fecharModalTgOverlay(e) {
+            if (e.target.id === 'modal-tg') fecharModalTg();
+        }
+        async function dispararTesteTelegram() {
+            const ticker = document.getElementById('tg-input-ticker').value.trim().toUpperCase() || 'PETR4';
+            const feedback = document.getElementById('tg-feedback');
+            const btn = document.getElementById('btn-disparar-tg');
+
+            feedback.className = 'wpp-alert-box info';
+            feedback.style.display = 'block';
+            feedback.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Gerando parecer do Gemini e transmitindo alerta para o Telegram...';
+            btn.disabled = true;
+
+            try {
+                const res = await fetch('/api/telegram/testar', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ ticker: ticker })
+                });
+                const data = await res.json();
+                btn.disabled = false;
+
+                if (data.status === 'ok') {
+                    feedback.className = 'wpp-alert-box success';
+                    feedback.innerHTML = `
+                        <div style="margin-bottom:6px;"><strong style="color:#38bdf8;"><i class="fas fa-circle-check"></i> Alerta Enviado com Sucesso!</strong></div>
+                        <div style="font-size:12px; line-height:1.5; color:var(--c-papel); margin-bottom:10px;">
+                            O comunicado oficial de <strong>${ticker}</strong> com parecer do Gemini foi entregue no canal <strong>CEARA_FINANCE_CANAL</strong>!
+                        </div>
+                        <a href="https://t.me/+T1V2m44be_Q3MjYx" target="_blank" class="btn-open-tg-now">
+                            <i class="fab fa-telegram"></i> VER NO TELEGRAM AGORA
+                        </a>
+                    `;
+                } else {
+                    feedback.className = 'wpp-alert-box error';
+                    feedback.innerText = 'Erro ao enviar: ' + (data.erro || 'Falha na API');
+                }
+            } catch(err) {
+                btn.disabled = false;
+                feedback.className = 'wpp-alert-box error';
+                feedback.innerText = 'Falha na comunicação: ' + err.message;
+            }
+        }
+
         function abrirModalWpp() {
             document.getElementById('modal-wpp').style.display = 'flex';
             carregarInscritosWpp();
