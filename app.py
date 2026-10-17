@@ -1531,15 +1531,448 @@ class CVMHandler(SimpleHTTPRequestHandler):
             grid-column: 1 / -1;
         }
 
+        /* ================= MOBILE RESPONSIVE MASTER DESIGN (CF TECH v2) ================= */
         @media (max-width: 900px) {
-            .logo-cf-banner { height: 54px; max-width: 280px; }
-            .metrics-grid { grid-template-columns: 1fr 1fr; }
-            .metric-cell:nth-child(2) { border-right: none; }
+            .logo-cf-banner { height: 50px; max-width: 260px; }
+            .metrics-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+            .metric-cell:nth-child(1), .metric-cell:nth-child(2) {
+                border-bottom: 1px solid var(--c-hairline);
+            }
+            .metric-cell:nth-child(2) {
+                border-right: none;
+            }
             .search-inputs-row { grid-template-columns: 1fr; }
             .docs-grid-layout { grid-template-columns: 1fr; }
             .footer-brand-box { grid-template-columns: 1fr; }
             .footer-left { border-right: none; border-bottom: 1px solid var(--c-hairline); }
-            .hero-title { font-size: 34px; }
+            .hero-title { font-size: 38px; }
+        }
+
+        @media (max-width: 640px) {
+            /* Container & espaçamentos mobile */
+            .container {
+                padding: 0 14px 50px;
+            }
+            
+            /* Header limpo e harmonioso */
+            header {
+                flex-direction: column;
+                align-items: center;
+                gap: 14px;
+                padding: 16px 0;
+                margin-bottom: 20px;
+            }
+            .brand-lockup {
+                width: 100%;
+                justify-content: center;
+            }
+            .logo-cf-banner {
+                height: 44px;
+                max-width: 220px;
+            }
+            .header-actions {
+                display: flex;
+                width: 100%;
+                gap: 6px;
+                justify-content: stretch;
+            }
+            .btn-top {
+                flex: 1;
+                font-size: 9.5px;
+                letter-spacing: 0.08em;
+                padding: 9px 6px;
+                justify-content: center;
+                text-align: center;
+                white-space: nowrap;
+                gap: 5px;
+            }
+            .btn-top i {
+                font-size: 11px;
+            }
+
+            /* Capa / Hero Mobile */
+            .hero-section {
+                padding: 10px 0 20px;
+                margin-bottom: 20px;
+            }
+            .hero-tag {
+                font-size: 9.5px;
+                letter-spacing: 0.18em;
+                margin-bottom: 8px;
+            }
+            .hero-title {
+                font-size: 28px;
+                line-height: 1.15;
+                margin-bottom: 10px;
+            }
+            .hero-subtitle {
+                font-size: 13px;
+                line-height: 1.55;
+            }
+
+            /* Grid de Métricas 2x2 harmonioso */
+            .metrics-grid {
+                grid-template-columns: 1fr 1fr;
+                margin-bottom: 18px;
+                border-radius: 6px;
+                overflow: hidden;
+            }
+            .metric-cell {
+                padding: 12px 14px;
+                gap: 4px;
+            }
+            .metric-cell-label {
+                font-size: 9px;
+                letter-spacing: 0.12em;
+            }
+            .metric-cell-val {
+                font-size: 20px;
+            }
+            .metric-cell-sub {
+                font-size: 10px;
+            }
+
+            /* Caixa de Busca Mobile */
+            .search-container {
+                padding: 14px 14px;
+                margin-bottom: 18px;
+                border-radius: 6px;
+            }
+            .search-label {
+                font-size: 9.5px;
+                letter-spacing: 0.14em;
+                margin-bottom: 10px;
+            }
+            .search-inputs-row {
+                gap: 8px;
+                margin-bottom: 12px;
+            }
+            .search-box-wrap input {
+                font-size: 13px;
+                padding: 11px 14px 11px 38px;
+                border-radius: 5px;
+            }
+            .search-box-wrap i {
+                left: 13px;
+                font-size: 13px;
+            }
+            .select-company-dropdown {
+                height: 42px;
+                font-size: 12.5px;
+                padding: 8px 12px;
+                width: 100%;
+                border-radius: 5px;
+            }
+
+            /* Barra de Meses deslizável (horizontal scroll nativo) */
+            .month-selector-bar {
+                display: flex;
+                align-items: center;
+                gap: 6px;
+                flex-wrap: nowrap;
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+                scrollbar-width: none;
+                padding: 10px 0;
+                margin-bottom: 12px;
+            }
+            .month-selector-bar::-webkit-scrollbar {
+                display: none;
+            }
+            .month-label {
+                flex-shrink: 0;
+                font-size: 9px;
+                letter-spacing: 0.12em;
+            }
+            .month-pill {
+                flex-shrink: 0;
+                white-space: nowrap;
+                font-size: 10.5px;
+                padding: 5px 11px;
+            }
+
+            /* Atalhos de Filtro deslizáveis */
+            .filter-pills-row {
+                display: flex;
+                align-items: center;
+                gap: 6px;
+                flex-wrap: nowrap;
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+                scrollbar-width: none;
+                padding-bottom: 2px;
+            }
+            .filter-pills-row::-webkit-scrollbar {
+                display: none;
+            }
+            .pills-prefix {
+                flex-shrink: 0;
+                font-size: 9px;
+            }
+            .pill-btn {
+                flex-shrink: 0;
+                white-space: nowrap;
+                font-size: 10.5px;
+                padding: 5px 12px;
+            }
+
+            /* Card de Perfil da Empresa Mobile */
+            .company-profile-banner {
+                padding: 14px 14px;
+                margin-bottom: 16px;
+            }
+            .profile-flex {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 10px;
+            }
+            .profile-company-info {
+                gap: 10px;
+            }
+            .profile-ticker-tag {
+                font-size: 14px;
+                padding: 3px 10px;
+            }
+            .profile-names h2 {
+                font-size: 16px;
+            }
+            .profile-names p {
+                font-size: 12px;
+            }
+            .profile-tags-row {
+                width: 100%;
+                gap: 6px;
+            }
+            .profile-data-chip {
+                font-size: 9.5px;
+                padding: 3px 8px;
+            }
+
+            /* Banner Telegram Mobile */
+            .tg-promo-banner {
+                flex-direction: column;
+                align-items: stretch;
+                gap: 12px;
+                padding: 14px;
+                margin-bottom: 16px;
+            }
+            .tg-promo-left {
+                gap: 12px;
+            }
+            .tg-promo-icon {
+                width: 38px;
+                height: 38px;
+                font-size: 20px;
+            }
+            .tg-promo-title {
+                font-size: 13.5px;
+                line-height: 1.3;
+            }
+            .tg-promo-desc {
+                font-size: 12px;
+                line-height: 1.45;
+            }
+            .tg-btn-group {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                gap: 8px;
+                width: 100%;
+            }
+            .btn-tg-action, .btn-tg-test-pill {
+                width: 100%;
+                justify-content: center;
+                padding: 9px 8px;
+                font-size: 10.5px;
+                text-align: center;
+            }
+
+            /* Viewport de Documentos Mobile (Sem armadilha de scroll duplo) */
+            .docs-viewport-card {
+                border-radius: 6px;
+                margin-bottom: 25px;
+            }
+            .docs-viewport-header {
+                padding: 10px 14px;
+                font-size: 10px;
+            }
+            .docs-scroll-indicator {
+                display: none;
+            }
+            .docs-viewport-content {
+                max-height: none;
+                overflow-y: visible;
+                padding: 10px;
+            }
+            .docs-grid-layout {
+                gap: 10px;
+            }
+
+            /* Card do Documento CVM no Celular */
+            .doc-item-compact {
+                padding: 14px 12px;
+                border-radius: 6px;
+            }
+            .doc-item-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 6px;
+                margin-bottom: 8px;
+            }
+            .doc-tags-left {
+                width: 100%;
+                gap: 6px;
+            }
+            .doc-ticker-pill {
+                font-size: 11px;
+                padding: 2px 7px;
+            }
+            .doc-company-title {
+                font-size: 13.5px;
+                line-height: 1.3;
+            }
+            .doc-category-badge {
+                font-size: 9px;
+                padding: 2px 6px;
+            }
+            .doc-date-stamp {
+                font-size: 10.5px;
+                color: var(--c-grafite-light);
+            }
+            .doc-subject-line {
+                font-size: 12.5px;
+                line-height: 1.45;
+                margin-bottom: 10px;
+            }
+
+            /* Parecer IA Gemini Mobile */
+            .ai-summary-compact {
+                padding: 10px 10px;
+                margin-bottom: 10px;
+            }
+            .ai-summary-top-row {
+                flex-wrap: wrap;
+                gap: 6px;
+                padding-bottom: 6px;
+                margin-bottom: 8px;
+            }
+            .ai-label-wrap {
+                font-size: 8.5px;
+                letter-spacing: 0.12em;
+            }
+            .impact-pill {
+                font-size: 8.5px;
+                padding: 2px 7px;
+            }
+            .summary-content-intro {
+                font-size: 12px;
+                line-height: 1.5;
+                margin-bottom: 8px;
+            }
+            .summary-bullet-row {
+                font-size: 11.5px;
+                line-height: 1.45;
+                gap: 6px;
+            }
+            .summary-analysis-callout {
+                padding: 8px 10px;
+                font-size: 11.5px;
+                line-height: 1.45;
+            }
+
+            /* Rodapé do Card Mobile */
+            .doc-item-footer {
+                padding-top: 8px;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                gap: 8px;
+            }
+            .btn-gen-ai {
+                font-size: 10px;
+                padding: 6px 10px;
+            }
+            .cvm-link-mini {
+                font-size: 10.5px;
+            }
+
+            /* Modais Mobile */
+            .modal-backdrop {
+                padding: 12px;
+            }
+            .modal-card {
+                max-height: 92vh;
+                display: flex;
+                flex-direction: column;
+                border-radius: 6px;
+            }
+            .modal-header {
+                padding: 12px 16px;
+            }
+            .modal-header h3 {
+                font-size: 13px;
+                line-height: 1.3;
+            }
+            .modal-body {
+                padding: 14px 14px;
+                overflow-y: auto;
+                -webkit-overflow-scrolling: touch;
+            }
+            .wpp-modal-actions {
+                flex-direction: column;
+                gap: 8px;
+            }
+            .btn-wpp-save, .btn-wpp-test {
+                width: 100%;
+                justify-content: center;
+            }
+
+            /* Rodapé Oficial CF Tech Mobile */
+            .footer-brand-box {
+                grid-template-columns: 1fr;
+            }
+            .footer-left {
+                padding: 20px 16px;
+            }
+            .footer-right {
+                padding: 20px 16px;
+            }
+            .footer-desc {
+                font-size: 12.5px;
+            }
+            .footer-disclaimer {
+                font-size: 10.5px;
+            }
+            .bottom-line {
+                flex-direction: column;
+                gap: 6px;
+                text-align: center;
+                font-size: 8.5px;
+                padding: 12px 0 20px;
+            }
+        }
+
+        @media (max-width: 400px) {
+            .header-actions {
+                flex-direction: column;
+            }
+            .btn-top {
+                width: 100%;
+            }
+            .tg-btn-group {
+                grid-template-columns: 1fr;
+            }
+            .metrics-grid {
+                grid-template-columns: 1fr;
+            }
+            .metric-cell {
+                border-right: none !important;
+                border-bottom: 1px solid var(--c-hairline);
+            }
+            .metric-cell:last-child {
+                border-bottom: none;
+            }
         }
     </style>
 </head>
