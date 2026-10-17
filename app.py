@@ -1812,22 +1812,45 @@ class CVMHandler(SimpleHTTPRequestHandler):
                 text-align: center;
             }
 
-            /* Viewport de Documentos Mobile (Sem armadilha de scroll duplo) */
+            /* Viewport de Documentos Mobile (Janela compacta com scroll interno independente) */
             .docs-viewport-card {
                 border-radius: 6px;
                 margin-bottom: 25px;
+                border: 1px solid var(--c-hairline);
+                background: var(--c-card-bg);
             }
             .docs-viewport-header {
                 padding: 10px 14px;
                 font-size: 10px;
             }
             .docs-scroll-indicator {
-                display: none;
+                display: flex;
+                align-items: center;
+                gap: 5px;
+                font-size: 9px;
+                color: var(--c-roxo-fume);
+                text-transform: uppercase;
+                letter-spacing: 0.08em;
+                white-space: nowrap;
             }
             .docs-viewport-content {
-                max-height: none;
-                overflow-y: visible;
+                max-height: min(520px, 68vh);
+                overflow-y: auto;
+                -webkit-overflow-scrolling: touch;
+                overscroll-behavior-y: contain;
                 padding: 10px;
+                scrollbar-width: thin;
+                scrollbar-color: var(--c-roxo-fume) var(--c-tinta);
+            }
+            .docs-viewport-content::-webkit-scrollbar {
+                width: 4px;
+            }
+            .docs-viewport-content::-webkit-scrollbar-track {
+                background: #0A0A0B;
+            }
+            .docs-viewport-content::-webkit-scrollbar-thumb {
+                background: var(--c-roxo-fume);
+                border-radius: 2px;
             }
             .docs-grid-layout {
                 gap: 10px;
