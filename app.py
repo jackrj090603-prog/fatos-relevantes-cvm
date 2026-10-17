@@ -2137,7 +2137,7 @@ class CVMHandler(SimpleHTTPRequestHandler):
                 </div>
             </div>
             <div class="tg-btn-group">
-                <a href="https://t.me/CEARA_FINANCE_BOT" target="_blank" class="btn-tg-bot" onclick="event.stopPropagation()">
+                <a href="https://t.me/CEARA_FINANCE_BOT?start=iniciar" target="_blank" class="btn-tg-bot" onclick="event.stopPropagation()">
                     <i class="fas fa-robot"></i> CONVERSAR COM O BOT
                 </a>
                 <a href="https://t.me/+T1V2m44be_Q3MjYx" target="_blank" class="btn-tg-action" onclick="event.stopPropagation()">
@@ -2233,7 +2233,7 @@ class CVMHandler(SimpleHTTPRequestHandler):
                             <div style="font-size:16px; font-weight:700; color:var(--c-papel);">@CEARA_FINANCE_BOT</div>
                             <div style="font-size:11.5px; color:var(--c-grafite-light); margin-top:2px;">Envie qualquer ticker (ex: <code>PETR4</code>, <code>VALE3</code>, <code>DIRR3</code>) e receba o parecer da IA no privado.</div>
                         </div>
-                        <a href="https://t.me/CEARA_FINANCE_BOT" target="_blank" class="btn-tg-bot" style="padding:10px 18px; font-size:11.5px;">
+                        <a href="https://t.me/CEARA_FINANCE_BOT?start=iniciar" target="_blank" class="btn-tg-bot" style="padding:10px 18px; font-size:11.5px;">
                             <i class="fas fa-comment-dots"></i> CONVERSAR COM O BOT
                         </a>
                     </div>

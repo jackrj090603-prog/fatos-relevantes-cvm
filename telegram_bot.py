@@ -56,9 +56,9 @@ def send_chat_action(chat_id, action="typing"):
     except Exception as e:
         print(f"[Telegram] Erro ao enviar chat action: {e}")
 
-def send_message(chat_id, text, parse_mode="HTML"):
+def send_message(chat_id, text, parse_mode="HTML", reply_markup=None):
     """
-    Envia uma mensagem no chat com tags HTML seguras.
+    Envia uma mensagem no chat com tags HTML seguras e suporte a botões interativos (reply_markup).
     Se o Telegram recusar devido a tags HTML malformadas, envia em texto simples de fallback.
     """
     if not TELEGRAM_BOT_TOKEN or not chat_id:
@@ -71,6 +71,8 @@ def send_message(chat_id, text, parse_mode="HTML"):
         "parse_mode": parse_mode,
         "disable_web_page_preview": False
     }
+    if reply_markup:
+        payload["reply_markup"] = reply_markup
     
     try:
         res = request_telegram_with_retry("POST", url, json=payload, timeout=15)
@@ -90,6 +92,21 @@ def send_message(chat_id, text, parse_mode="HTML"):
         
     except Exception as e:
         print(f"[Telegram] Falha ao enviar mensagem para chat {chat_id}: {e}")
+        return None
+
+def answer_callback_query(callback_query_id, text=None):
+    """Responde a um clique de botão inline no Telegram para remover o loading do botão."""
+    if not TELEGRAM_BOT_TOKEN or not callback_query_id:
+        return None
+    url = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/answerCallbackQuery"
+    payload = {"callback_query_id": callback_query_id}
+    if text:
+        payload["text"] = text
+    try:
+        res = request_telegram_with_retry("POST", url, json=payload, timeout=10)
+        return res.json() if res and res.status_code == 200 else None
+    except Exception as e:
+        print(f"[Telegram] Erro ao responder callback query: {e}")
         return None
 
 def ler_updates(offset=None):
