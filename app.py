@@ -2522,6 +2522,28 @@ def iniciar_servidor(port=PORT):
 
     threading.Thread(target=cvm_monitor_loop, daemon=True, name="CVMMonitorWorker").start()
 
+    # Thread 24/7: Self-Ping Keep-Alive (Evita o sleep de 15 min do Render)
+    def keep_alive_loop():
+        import time
+        import urllib.request
+        time.sleep(60)
+        url = "https://fatos-relevantes-cvm.onrender.com/health"
+        print("[Keep-Alive] Thread de auto-ping iniciada 24/7.")
+        while True:
+            try:
+                req = urllib.request.Request(
+                    url,
+                    headers={"User-Agent": "CFTech-KeepAlive-Worker/1.0"}
+                )
+                with urllib.request.urlopen(req, timeout=15) as res:
+                    print(f"[Keep-Alive] Ping executado: HTTP {res.getcode()}")
+            except Exception as e:
+                print(f"[Keep-Alive] Tentativa de ping: {e}")
+            # Ping a cada 9 minutos (540s), garantindo que nunca atinja os 15 min de inatividade do Render
+            time.sleep(540)
+
+    threading.Thread(target=keep_alive_loop, daemon=True, name="KeepAliveWorker").start()
+
     server_address = ("", port)
     httpd = ThreadingHTTPServer(server_address, CVMHandler)
     print(f"[CVM Server] Alertas CVM ativos em http://localhost:{port}")

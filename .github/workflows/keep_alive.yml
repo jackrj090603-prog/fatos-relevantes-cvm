@@ -1,0 +1,26 @@
+name: 24/7 Keep-Alive Ping (Render Cloud)
+
+on:
+  schedule:
+    # Executa a cada 10 minutos para garantir que o Render nunca entre em modo sleep
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+
+jobs:
+  keep_alive:
+    name: Ping Render Health Check
+    runs-on: ubuntu-latest
+    steps:
+      - name: Send HTTP Ping to Render
+        run: |
+          echo "Disparando ping de keep-alive para https://fatos-relevantes-cvm.onrender.com/health..."
+          STATUS=$(curl -s -o /dev/null -w "%{http_code}" --max-time 20 https://fatos-relevantes-cvm.onrender.com/health || echo "000")
+          echo "Status HTTP retornado: $STATUS"
+          if [ "$STATUS" -eq 200 ]; then
+            echo " Servidor Render acordado e respondendo normalmente!"
+          else
+            echo "⚠️ Servidor respondeu com status $STATUS. Acordando container..."
+            # Segunda tentativa para garantir
+            sleep 5
+            curl -s --max-time 30 https://fatos-relevantes-cvm.onrender.com/health || true
+          fi
