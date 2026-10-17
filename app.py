@@ -988,6 +988,30 @@ class CVMHandler(SimpleHTTPRequestHandler):
             align-items: center;
             flex-wrap: wrap;
         }
+        .btn-tg-bot {
+            background: linear-gradient(135deg, #7c3aed 0%, #3b0764 100%);
+            border: 1px solid var(--c-roxo-fume);
+            color: #ffffff !important;
+            padding: 8px 16px;
+            font-family: var(--font-mono);
+            font-size: 11px;
+            letter-spacing: 0.1em;
+            font-weight: 600;
+            border-radius: 4px;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 7px;
+            transition: all 0.2s;
+            text-decoration: none;
+            white-space: nowrap;
+        }
+        .btn-tg-bot:hover {
+            background: linear-gradient(135deg, #8b5cf6 0%, #4c1d95 100%);
+            box-shadow: 0 0 14px rgba(140, 121, 192, 0.5);
+            color: #ffffff;
+            transform: translateY(-1px);
+        }
         .btn-tg-action {
             background: #0088cc;
             color: #ffffff !important;
@@ -2103,23 +2127,22 @@ class CVMHandler(SimpleHTTPRequestHandler):
             </div>
         </div>
 
-        <!-- Banner de Chamada para Alertas no WhatsApp -->
         <!-- Banner Destaque Telegram -->
         <div class="tg-promo-banner" onclick="abrirModalTelegram()">
             <div class="tg-promo-left">
                 <div class="tg-promo-icon"><i class="fab fa-telegram-plane"></i></div>
                 <div>
-                    <div class="tg-promo-title">CANAL OFICIAL DE ALERTAS CVM NO TELEGRAM</div>
-                    <div class="tg-promo-desc">Receba notificações instantâneas com parecer executivo do Gemini diretamente no canal <strong>CEARA_FINANCE_CANAL</strong>. 100% gratuito e em tempo real.</div>
+                    <div class="tg-promo-title">CONEXÃO OFICIAL TELEGRAM · CEARÁ FINANCE</div>
+                    <div class="tg-promo-desc">Converse no privado com nosso <strong>Robô IA (@CEARA_FINANCE_BOT)</strong> para pedir resumos de qualquer empresa ou receba o feed no <strong>Canal de Alertas</strong>.</div>
                 </div>
             </div>
             <div class="tg-btn-group">
+                <a href="https://t.me/CEARA_FINANCE_BOT" target="_blank" class="btn-tg-bot" onclick="event.stopPropagation()">
+                    <i class="fas fa-robot"></i> CONVERSAR COM O BOT
+                </a>
                 <a href="https://t.me/+T1V2m44be_Q3MjYx" target="_blank" class="btn-tg-action" onclick="event.stopPropagation()">
                     <i class="fab fa-telegram-plane"></i> ENTRAR NO CANAL
                 </a>
-                <button class="btn-tg-test-pill" onclick="event.stopPropagation(); abrirModalTelegram();">
-                    <i class="fas fa-bell"></i> TESTAR AGORA
-                </button>
             </div>
         </div>
 
@@ -2194,22 +2217,37 @@ class CVMHandler(SimpleHTTPRequestHandler):
     <div id="modal-tg" class="modal-backdrop" onclick="fecharModalTgOverlay(event)">
         <div class="modal-card">
             <div class="modal-header" style="background: rgba(0, 136, 204, 0.18);">
-                <h3><i class="fab fa-telegram" style="color:#0088cc;"></i> Canal Oficial de Alertas CVM no Telegram</h3>
+                <h3><i class="fab fa-telegram" style="color:#0088cc;"></i> Conexão Oficial Telegram · Ceará Finance</h3>
                 <button class="modal-close-btn" onclick="fecharModalTg()">&times;</button>
             </div>
             <div class="modal-body">
-                <p style="font-size: 13px; color: var(--c-grafite-light); margin-bottom: 18px; line-height: 1.55;">
-                    Os fatos relevantes e pareceres de IA são transmitidos em tempo real para o canal oficial da <strong>Ceará Finance</strong> via bot (<code>@CEARA_FINANCE_BOT</code>).
+                <p style="font-size: 13px; color: var(--c-grafite-light); margin-bottom: 16px; line-height: 1.55;">
+                    Escolha como deseja se conectar com o sistema de Inteligência Artificial da <strong>Ceará Finance</strong> no Telegram:
                 </p>
 
-                <div style="background: rgba(0, 136, 204, 0.08); border: 1px solid rgba(0, 136, 204, 0.3); border-radius: 6px; padding: 16px 20px; margin-bottom: 20px;">
+                <!-- CARD 1: ROBÔ INDIVIDUAL (1-A-1) -->
+                <div style="background: rgba(124, 58, 237, 0.1); border: 1px solid rgba(140, 121, 192, 0.35); border-radius: 6px; padding: 15px 18px; margin-bottom: 12px;">
                     <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px;">
                         <div>
-                            <div style="font-size:11px; font-family:var(--font-mono); color:#38bdf8; text-transform:uppercase; letter-spacing:0.1em;">Canal Oficial Telegram</div>
-                            <div style="font-size:16px; font-weight:700; color:var(--c-papel);">CEARA_FINANCE_CANAL</div>
-                            <div style="font-size:11.5px; color:var(--c-grafite-light); margin-top:2px;">Bot Oficial: <code>@CEARA_FINANCE_BOT</code></div>
+                            <div style="font-size:10px; font-family:var(--font-mono); color:#c4b5fd; text-transform:uppercase; letter-spacing:0.12em;"><i class="fas fa-robot"></i> Atendimento Individual Privado</div>
+                            <div style="font-size:16px; font-weight:700; color:var(--c-papel);">@CEARA_FINANCE_BOT</div>
+                            <div style="font-size:11.5px; color:var(--c-grafite-light); margin-top:2px;">Envie qualquer ticker (ex: <code>PETR4</code>, <code>VALE3</code>, <code>DIRR3</code>) e receba o parecer da IA no privado.</div>
                         </div>
-                        <a href="https://t.me/+T1V2m44be_Q3MjYx" target="_blank" class="btn-tg-action" style="padding:10px 18px; font-size:12px;">
+                        <a href="https://t.me/CEARA_FINANCE_BOT" target="_blank" class="btn-tg-bot" style="padding:10px 18px; font-size:11.5px;">
+                            <i class="fas fa-comment-dots"></i> CONVERSAR COM O BOT
+                        </a>
+                    </div>
+                </div>
+
+                <!-- CARD 2: CANAL COLETIVO DE ALERTAS -->
+                <div style="background: rgba(0, 136, 204, 0.08); border: 1px solid rgba(0, 136, 204, 0.3); border-radius: 6px; padding: 15px 18px; margin-bottom: 18px;">
+                    <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px;">
+                        <div>
+                            <div style="font-size:10px; font-family:var(--font-mono); color:#38bdf8; text-transform:uppercase; letter-spacing:0.12em;"><i class="fab fa-telegram-plane"></i> Feed Contínuo de Alertas</div>
+                            <div style="font-size:16px; font-weight:700; color:var(--c-papel);">CEARA_FINANCE_CANAL</div>
+                            <div style="font-size:11.5px; color:var(--c-grafite-light); margin-top:2px;">Transmissão automática com notificação sonora a cada novo documento protocolado na CVM.</div>
+                        </div>
+                        <a href="https://t.me/+T1V2m44be_Q3MjYx" target="_blank" class="btn-tg-action" style="padding:10px 18px; font-size:11.5px;">
                             <i class="fab fa-telegram-plane"></i> ENTRAR NO CANAL
                         </a>
                     </div>
@@ -2222,7 +2260,7 @@ class CVMHandler(SimpleHTTPRequestHandler):
 
                 <div id="tg-feedback" class="wpp-alert-box" style="display:none;"></div>
 
-                <div style="margin-top: 18px;">
+                <div style="margin-top: 14px;">
                     <button class="btn-tg-send-test" onclick="dispararTesteTelegram()" id="btn-disparar-tg">
                         <i class="fas fa-paper-plane"></i> DISPARAR ALERTA DE TESTE NO TELEGRAM
                     </button>
