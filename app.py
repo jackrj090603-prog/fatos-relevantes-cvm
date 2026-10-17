@@ -1997,7 +1997,6 @@ class CVMHandler(SimpleHTTPRequestHandler):
 
             <div class="header-actions">
                 <button onclick="abrirModalTelegram()" class="btn-top btn-tg-nav"><i class="fab fa-telegram"></i> ALERTAS TELEGRAM</button>
-                <a href="http://localhost:8000" class="btn-top"><i class="fas fa-arrow-left"></i> FINANCE HUB</a>
                 <button onclick="carregarDocs()" class="btn-top"><i class="fas fa-rotate"></i> ATUALIZAR</button>
             </div>
         </header>
